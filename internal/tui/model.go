@@ -138,6 +138,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		if m.State == StateReader {
 			return m.updateReaderKeys(message)
 		}
+		if m.State == StateSettings {
+			return m.updateSettingsKeys(message)
+		}
 	}
 	return m, nil
 }
@@ -149,6 +152,8 @@ func (m Model) View() tea.View {
 		content = searchView(m)
 	case StateReader:
 		content = readerView(m)
+	case StateSettings:
+		content = settingsView(m)
 	default:
 		st := theme.Apply(theme.Must(m.Sel.Theme))
 		title := st.Title.Render(fmt.Sprintf("terminal GEETARD — %s", m.State))

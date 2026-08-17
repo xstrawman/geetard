@@ -107,3 +107,33 @@ func TestReaderView_showsChordsAndTitle(t *testing.T) {
 		t.Fatal("diagram missing", body)
 	}
 }
+
+func TestSettings_selectThemeWritesFile(t *testing.T) {
+	dir := t.TempDir()
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), dir)
+	m.State = StateSettings
+	m.SettingIdx = 0
+	m.InValues = true
+	m.ValueIdx = 3 // nord
+	next, _ := m.Update(enterKey())
+	got := next.(Model)
+	if got.Sel.Theme != "nord" {
+		t.Fatal(got.Sel.Theme)
+	}
+	s, _, err := config.Load(dir)
+	if err != nil || s.Theme != "nord" {
+		t.Fatal(s, err)
+	}
+}
+
+func TestSettingsView_hasPreview(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.Width, m.Height = 100, 30
+	m.State = StateSettings
+	body := viewString(m.View())
+	for _, w := range []string{"Theme", "Border", "Density", "Autoscroll", "Scroll speed", "Diagrams", "Preview"} {
+		if !strings.Contains(body, w) {
+			t.Fatal("missing", w, body)
+		}
+	}
+}
