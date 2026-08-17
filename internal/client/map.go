@@ -101,6 +101,7 @@ func MapTab(store map[string]any) (TabDetail, error) {
 		Tuning:     tuning,
 		Difficulty: diff,
 		Raw:        raw,
+		Shapes:     Shapes(view),
 	}, nil
 }
 
