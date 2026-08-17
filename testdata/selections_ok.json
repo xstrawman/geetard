@@ -1,0 +1,8 @@
+{
+  "theme": "nord",
+  "border": "ascii",
+  "density": "airy",
+  "autoscroll": "on",
+  "scroll_speed": "fast",
+  "diagrams": "sidebar"
+}
