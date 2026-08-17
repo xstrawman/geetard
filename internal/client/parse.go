@@ -2,6 +2,7 @@ package client
 
 import (
 	"encoding/json"
+	"fmt"
 	"html"
 	"regexp"
 	"strings"
@@ -39,4 +40,54 @@ func storeData(store map[string]any) (map[string]any, error) {
 		return nil, errf("could not parse page")
 	}
 	return data, nil
+}
+
+func AsInt(v any, def int) int {
+	switch n := v.(type) {
+	case float64:
+		return int(n)
+	case int:
+		return n
+	case int64:
+		return int(n)
+	case json.Number:
+		i, err := n.Int64()
+		if err != nil {
+			return def
+		}
+		return int(i)
+	case string:
+		var i int
+		if _, err := fmt.Sscanf(n, "%d", &i); err != nil {
+			return def
+		}
+		return i
+	default:
+		return def
+	}
+}
+
+func AsFloat(v any, def float64) float64 {
+	switch n := v.(type) {
+	case float64:
+		return n
+	case int:
+		return float64(n)
+	case int64:
+		return float64(n)
+	case json.Number:
+		f, err := n.Float64()
+		if err != nil {
+			return def
+		}
+		return f
+	case string:
+		var f float64
+		if _, err := fmt.Sscanf(n, "%f", &f); err != nil {
+			return def
+		}
+		return f
+	default:
+		return def
+	}
 }

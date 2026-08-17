@@ -37,3 +37,15 @@ func TestExtractStore_missingDiv(t *testing.T) {
 		t.Fatalf("got %v", err)
 	}
 }
+
+func TestAsInt_stringOrNumber(t *testing.T) {
+	if AsInt("3", 0) != 3 || AsInt(3.0, 0) != 3 || AsInt(nil, 7) != 7 {
+		t.Fatal(AsInt("3", 0), AsInt(3.0, 0), AsInt(nil, 7))
+	}
+}
+
+func TestAsFloat_stringOrNumber(t *testing.T) {
+	if AsFloat("4.8", 0) != 4.8 || AsFloat(5, 0) != 5 || AsFloat(nil, 1) != 1 {
+		t.Fatal(AsFloat("4.8", 0), AsFloat(5, 0), AsFloat(nil, 1))
+	}
+}
