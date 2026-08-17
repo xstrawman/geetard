@@ -78,6 +78,14 @@ func (m Model) clampScroll() Model {
 	return m
 }
 
+func sheetVisible(m Model) int {
+	n := m.Height - 10
+	if n < 3 {
+		return 3
+	}
+	return n
+}
+
 func clampAutoMs(ms int) int {
 	if ms < 100 {
 		return 100
@@ -158,9 +166,13 @@ func renderSheet(m Model, st theme.Styles) string {
 	if start > len(m.Lines) {
 		start = len(m.Lines)
 	}
+	end := start + sheetVisible(m)
+	if end > len(m.Lines) {
+		end = len(m.Lines)
+	}
 	gap := config.DensityGap(m.Sel.Density)
 	var b strings.Builder
-	for i, line := range m.Lines[start:] {
+	for i, line := range m.Lines[start:end] {
 		if i > 0 {
 			for range gap {
 				b.WriteByte('\n')

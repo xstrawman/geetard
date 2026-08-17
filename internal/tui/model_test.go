@@ -149,3 +149,24 @@ func TestHelpView_mentionsProxyAndKeys(t *testing.T) {
 		}
 	}
 }
+
+func TestKeys_settingsDoesNotClobberPrev(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.State = StateReader
+	next, _ := m.Update(press("s"))
+	next, _ = next.(Model).Update(press("s"))
+	next, _ = next.(Model).Update(press("esc"))
+	if next.(Model).State != StateReader {
+		t.Fatal(next.(Model).State)
+	}
+}
+
+func TestSettings_openSyncsValueIdx(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.Sel.Theme = "nord"
+	next, _ := m.Update(press("s"))
+	got := next.(Model)
+	if got.ValueIdx != 3 {
+		t.Fatal(got.ValueIdx)
+	}
+}

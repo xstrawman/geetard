@@ -93,6 +93,14 @@ func (m Model) updateSearchKeys(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 	return m, nil
 }
 
+func searchVisible(m Model) int {
+	n := m.Height - 12
+	if n < 3 {
+		return 3
+	}
+	return n
+}
+
 func (m Model) searchPage(delta int) tea.Cmd {
 	q := m.Results.Query
 	if q == "" {
@@ -136,7 +144,17 @@ func searchView(m Model) string {
 	b.WriteString(m.Query)
 	b.WriteString("\n\n")
 	fmt.Fprintf(&b, "%-22s %-28s %-8s %s\n", "ARTIST", "SONG", "TYPE", "★")
-	for i, r := range m.Results.Results {
+	rows := searchVisible(m)
+	start := 0
+	if m.Cursor >= rows {
+		start = m.Cursor - rows + 1
+	}
+	end := start + rows
+	if end > len(m.Results.Results) {
+		end = len(m.Results.Results)
+	}
+	for i := start; i < end; i++ {
+		r := m.Results.Results[i]
 		line := fmt.Sprintf("%-22s %-28s %-8s %.1f", r.Artist, r.Song, r.Type, r.Rating)
 		if i == m.Cursor {
 			line = st.Selected.Render(line)

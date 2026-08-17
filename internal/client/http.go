@@ -24,8 +24,19 @@ func New(searchHost, tabHost string) *Client {
 	return &Client{
 		SearchHost: searchHost,
 		TabHost:    tabHost,
-		HTTP:       &http.Client{Timeout: 15 * time.Second},
-		UA:         "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
+		HTTP: &http.Client{
+			Timeout: 15 * time.Second,
+			CheckRedirect: func(req *http.Request, via []*http.Request) error {
+				if err := rejectUG(req.URL.Host); err != nil {
+					return err
+				}
+				if len(via) >= 10 {
+					return errf("proxy timed out")
+				}
+				return nil
+			},
+		},
+		UA: "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
 	}
 }
 

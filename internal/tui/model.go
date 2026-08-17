@@ -52,9 +52,6 @@ func New(c *client.Client, sel config.Selections, dir string) Model {
 }
 
 func (m Model) Init() tea.Cmd {
-	if m.AutoOn {
-		return autoCmd(m.AutoMs)
-	}
 	return nil
 }
 
@@ -108,16 +105,27 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 			return m, tea.Quit
 		case "s":
+			if m.State == StateSettings {
+				return m, nil
+			}
 			m.Prev = m.State
 			m.State = StateSettings
+			m.InValues = false
+			m.ValueIdx = valueIndex(settingsCatalog()[clampIdx(m.SettingIdx, len(settingsCatalog()))], m.Sel)
 			return m, nil
 		case "?":
+			if m.State == StateHelp {
+				return m, nil
+			}
 			m.Prev = m.State
 			m.State = StateHelp
 			return m, nil
 		case "esc", "backspace":
 			if m.State == StateSettings || m.State == StateHelp {
 				m.State = m.Prev
+				if m.State == StateReader && m.AutoOn {
+					return m, autoCmd(m.AutoMs)
+				}
 			}
 			return m, nil
 		case "t":

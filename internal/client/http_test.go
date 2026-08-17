@@ -73,3 +73,15 @@ func TestClientSearch_5xx(t *testing.T) {
 		t.Fatalf("got %v", err)
 	}
 }
+
+func TestClientSearch_refusesUGRedirect(t *testing.T) {
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		http.Redirect(w, r, "https://www.ultimate-guitar.com/tab/x", http.StatusFound)
+	}))
+	defer srv.Close()
+	c := New(srv.URL, srv.URL)
+	_, err := c.Search("x", 1)
+	if err == nil {
+		t.Fatal("expected reject")
+	}
+}
