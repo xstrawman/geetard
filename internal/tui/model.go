@@ -154,6 +154,8 @@ func (m Model) View() tea.View {
 		content = readerView(m)
 	case StateSettings:
 		content = settingsView(m)
+	case StateHelp:
+		content = helpView(m)
 	default:
 		st := theme.Apply(theme.Must(m.Sel.Theme))
 		title := st.Title.Render(fmt.Sprintf("terminal GEETARD — %s", m.State))

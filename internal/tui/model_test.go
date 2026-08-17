@@ -137,3 +137,15 @@ func TestSettingsView_hasPreview(t *testing.T) {
 		}
 	}
 }
+
+func TestHelpView_mentionsProxyAndKeys(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.Width, m.Height = 80, 24
+	m.State = StateHelp
+	body := viewString(m.View())
+	for _, w := range []string{"proxy.freetar.de", "ultimate-guitar.com", "s settings", "a autoscroll"} {
+		if !strings.Contains(body, w) {
+			t.Fatal("missing", w, body)
+		}
+	}
+}
