@@ -1,12 +1,19 @@
 package tui
 
 import (
+	"strings"
 	"testing"
 
 	tea "charm.land/bubbletea/v2"
 	"geetard/internal/client"
 	"geetard/internal/config"
 )
+
+func enterKey() tea.KeyPressMsg {
+	return tea.KeyPressMsg{Code: tea.KeyEnter}
+}
+
+func viewString(v tea.View) string { return v.Content }
 
 func press(s string) tea.KeyPressMsg {
 	switch s {
@@ -48,5 +55,26 @@ func TestKeys_themeCycle(t *testing.T) {
 	next, _ := m.Update(press("t"))
 	if next.(Model).Sel.Theme != "green" {
 		t.Fatal(next.(Model).Sel.Theme)
+	}
+}
+
+func TestSearch_enterOnEmptyDoesNotSearch(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.Querying = true
+	m.Query = ""
+	_, cmd := m.Update(enterKey())
+	if cmd != nil {
+		t.Fatal("empty query must not fire a command")
+	}
+}
+
+func TestSearchView_listsResults(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.Width, m.Height = 80, 24
+	m.Results = client.SearchPage{Results: []client.SearchResult{{
+		Artist: "Willie Nelson", Song: "Always On My Mind", Type: "Chords", Rating: 4.8,
+	}}}
+	if !strings.Contains(viewString(m.View()), "Willie Nelson") {
+		t.Fatal(viewString(m.View()))
 	}
 }

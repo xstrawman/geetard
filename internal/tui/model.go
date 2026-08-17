@@ -61,7 +61,35 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.Width = message.Width
 		m.Height = message.Height
 		return m, nil
+	case searchMsg:
+		m.Results = message.Page
+		m.Cursor = 0
+		m.Status = ""
+		if message.Err != nil {
+			m.Status = message.Err.Error()
+		}
+		return m, nil
+	case tabMsg:
+		if message.Err != nil {
+			m.Status = message.Err.Error()
+			return m, nil
+		}
+		m.Tab = message.Tab
+		m.Lines = client.Render(message.Tab.Raw)
+		m.Scroll = 0
+		m.AutoOn = m.Sel.Autoscroll == "on"
+		m.State = StateReader
+		m.Status = ""
+		return m, nil
+	case errMsg:
+		if message.Err != nil {
+			m.Status = message.Err.Error()
+		}
+		return m, nil
 	case tea.KeyMsg:
+		if m.State == StateSearch && m.Querying {
+			return m.updateSearchQuery(message)
+		}
 		switch message.String() {
 		case "ctrl+c":
 			return m, tea.Quit
@@ -96,18 +124,28 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 			return m, nil
 		}
+		if m.State == StateSearch {
+			return m.updateSearchKeys(message)
+		}
 	}
 	return m, nil
 }
 
 func (m Model) View() tea.View {
-	st := theme.Apply(theme.Must(m.Sel.Theme))
-	title := st.Title.Render(fmt.Sprintf("terminal GEETARD — %s", m.State))
-	body := st.Body.Render(placeholder(m.State))
-	footer := st.Footer.Render(footerKeys(m.State))
+	var content string
+	switch m.State {
+	case StateSearch:
+		content = searchView(m)
+	default:
+		st := theme.Apply(theme.Must(m.Sel.Theme))
+		title := st.Title.Render(fmt.Sprintf("terminal GEETARD — %s", m.State))
+		body := st.Body.Render(placeholder(m.State))
+		footer := st.Footer.Render(footerKeys(m.State))
+		content = title + "\n\n" + body + "\n\n" + footer
+	}
 	v := tea.NewView("")
 	v.AltScreen = true
-	v.SetContent(title + "\n\n" + body + "\n\n" + footer)
+	v.SetContent(content)
 	return v
 }
 
