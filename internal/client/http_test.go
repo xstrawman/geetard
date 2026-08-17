@@ -26,7 +26,7 @@ func TestClientSearch_emptyQueryDoesNotHitNetwork(t *testing.T) {
 func TestClientSearch_parsesFixture(t *testing.T) {
 	html := testdata(t, "search_ok.html")
 	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		if r.URL.Path != "/search.php" {
+		if r.URL.Path != "/search" {
 			t.Fatalf("path %s", r.URL.Path)
 		}
 		_, _ = w.Write([]byte(html))

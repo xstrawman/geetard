@@ -13,10 +13,10 @@ func TestSearchURL_usesProxyAndNeverUG(t *testing.T) {
 	if strings.Contains(u, "ultimate-guitar.com") {
 		t.Fatal(u)
 	}
-	if !strings.HasPrefix(u, "https://proxy.freetar.de/search.php?") {
+	if !strings.HasPrefix(u, "https://freetar.de/search?") {
 		t.Fatal(u)
 	}
-	if !strings.Contains(u, "search_type=title") || !strings.Contains(u, "page=2") {
+	if !strings.Contains(u, "search_term=") || !strings.Contains(u, "page=2") {
 		t.Fatal(u)
 	}
 }
@@ -33,7 +33,7 @@ func TestTabURL_stripsPrefix(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if u != "https://tabs.proxy.freetar.de/tab/willie-nelson/always-on-my-mind-123" {
+	if u != "https://freetar.de/tab/willie-nelson/always-on-my-mind-123" {
 		t.Fatal(u)
 	}
 }

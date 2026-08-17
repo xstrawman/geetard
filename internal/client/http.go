@@ -59,11 +59,10 @@ func (c *Client) Search(query string, page int) (SearchPage, error) {
 	if err != nil {
 		return SearchPage{}, err
 	}
-	store, err := ExtractStore(body)
-	if err != nil {
-		return SearchPage{}, err
+	if store, err := ExtractStore(body); err == nil {
+		return MapSearch(store, query, page)
 	}
-	return MapSearch(store, query, page)
+	return ParseFreetarSearch(body, query, page)
 }
 
 func (c *Client) Tab(path string) (TabDetail, error) {
@@ -75,11 +74,10 @@ func (c *Client) Tab(path string) (TabDetail, error) {
 	if err != nil {
 		return TabDetail{}, err
 	}
-	store, err := ExtractStore(body)
-	if err != nil {
-		return TabDetail{}, err
+	if store, err := ExtractStore(body); err == nil {
+		return MapTab(store)
 	}
-	return MapTab(store)
+	return ParseFreetarTab(body)
 }
 
 func (c *Client) get(u string) (string, error) {

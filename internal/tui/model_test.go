@@ -143,7 +143,7 @@ func TestHelpView_mentionsProxyAndKeys(t *testing.T) {
 	m.Width, m.Height = 80, 24
 	m.State = StateHelp
 	body := viewString(m.View())
-	for _, w := range []string{"proxy.freetar.de", "ultimate-guitar.com", "s settings", "a autoscroll"} {
+	for _, w := range []string{"freetar.de", "ultimate-guitar.com", "s settings", "a autoscroll"} {
 		if !strings.Contains(body, w) {
 			t.Fatal("missing", w, body)
 		}

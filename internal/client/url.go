@@ -7,8 +7,8 @@ import (
 )
 
 const (
-	DefaultSearchHost = "https://proxy.freetar.de"
-	DefaultTabHost    = "https://tabs.proxy.freetar.de"
+	DefaultSearchHost = "https://freetar.de"
+	DefaultTabHost    = "https://freetar.de"
 )
 
 func TabPath(tabURL string) string {
@@ -26,14 +26,13 @@ func SearchURL(host, query string, page int) (string, error) {
 	if err := rejectUG(host); err != nil {
 		return "", err
 	}
-	u, err := url.Parse(strings.TrimRight(host, "/") + "/search.php")
+	u, err := url.Parse(strings.TrimRight(host, "/") + "/search")
 	if err != nil {
 		return "", err
 	}
 	q := u.Query()
+	q.Set("search_term", query)
 	q.Set("page", strconv.Itoa(page))
-	q.Set("search_type", "title")
-	q.Set("value", query)
 	u.RawQuery = q.Encode()
 	return u.String(), nil
 }
