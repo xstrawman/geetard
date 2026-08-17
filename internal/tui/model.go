@@ -52,6 +52,9 @@ func New(c *client.Client, sel config.Selections, dir string) Model {
 }
 
 func (m Model) Init() tea.Cmd {
+	if m.AutoOn {
+		return autoCmd(m.AutoMs)
+	}
 	return nil
 }
 
@@ -80,7 +83,12 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.AutoOn = m.Sel.Autoscroll == "on"
 		m.State = StateReader
 		m.Status = ""
+		if m.AutoOn {
+			return m, autoCmd(m.AutoMs)
+		}
 		return m, nil
+	case autoTick:
+		return m.updateAutoTick()
 	case errMsg:
 		if message.Err != nil {
 			m.Status = message.Err.Error()
@@ -127,6 +135,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		if m.State == StateSearch {
 			return m.updateSearchKeys(message)
 		}
+		if m.State == StateReader {
+			return m.updateReaderKeys(message)
+		}
 	}
 	return m, nil
 }
@@ -136,6 +147,8 @@ func (m Model) View() tea.View {
 	switch m.State {
 	case StateSearch:
 		content = searchView(m)
+	case StateReader:
+		content = readerView(m)
 	default:
 		st := theme.Apply(theme.Must(m.Sel.Theme))
 		title := st.Title.Render(fmt.Sprintf("terminal GEETARD — %s", m.State))
@@ -167,7 +180,7 @@ func placeholder(s State) string {
 func footerKeys(s State) string {
 	switch s {
 	case StateReader:
-		return "s settings   ? help   t theme   q back"
+		return "j/k scroll   space page   a autoscroll   s settings   ? help   q back"
 	case StateSettings, StateHelp:
 		return "esc back   q quit"
 	default:

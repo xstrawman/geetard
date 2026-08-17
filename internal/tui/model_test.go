@@ -78,3 +78,32 @@ func TestSearchView_listsResults(t *testing.T) {
 		t.Fatal(viewString(m.View()))
 	}
 }
+
+func TestReader_autoscrollTickAdvances(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.State = StateReader
+	m.AutoOn = true
+	m.Lines = make([]client.DisplayLine, 40)
+	m.Height = 10
+	next, _ := m.Update(autoTick{})
+	if next.(Model).Scroll != 1 {
+		t.Fatal(next.(Model).Scroll)
+	}
+}
+
+func TestReaderView_showsChordsAndTitle(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.Width, m.Height = 100, 24
+	m.State = StateReader
+	m.Tab = client.TabDetail{Artist: "Willie Nelson", Song: "Always On My Mind", Version: 3, Capo: "1",
+		Shapes: []client.ChordShape{{Name: "G", Lines: []string{"  e |-3-"}}}}
+	m.Lines = client.Render("[ch]G[/ch]\nMaybe I didn't love you")
+	m.Sel.Diagrams = "sidebar"
+	body := viewString(m.View())
+	if !strings.Contains(body, "Always On My Mind") || !strings.Contains(body, "Maybe I didn't") {
+		t.Fatal(body)
+	}
+	if !strings.Contains(body, "e |-3-") {
+		t.Fatal("diagram missing", body)
+	}
+}
