@@ -74,10 +74,18 @@ func (c *Client) Tab(path string) (TabDetail, error) {
 	if err != nil {
 		return TabDetail{}, err
 	}
+	var tab TabDetail
+	var perr error
 	if store, err := ExtractStore(body); err == nil {
-		return MapTab(store)
+		tab, perr = MapTab(store)
+	} else {
+		tab, perr = ParseFreetarTab(body)
 	}
-	return ParseFreetarTab(body)
+	if perr != nil {
+		return TabDetail{}, perr
+	}
+	tab.Path = TabPath(path)
+	return tab, nil
 }
 
 func (c *Client) get(u string) (string, error) {

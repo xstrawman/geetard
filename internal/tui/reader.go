@@ -39,11 +39,7 @@ func (m Model) updateReaderKeys(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 	case "k", "up":
 		m = m.scrollBy(-1)
 	case "space":
-		page := m.Height - 8
-		if page < 1 {
-			page = 1
-		}
-		m = m.scrollBy(page)
+		m = m.scrollBy(m.pageSize())
 	case "a":
 		m.AutoOn = !m.AutoOn
 		if m.AutoOn {
@@ -65,7 +61,7 @@ func (m Model) scrollBy(delta int) Model {
 }
 
 func (m Model) clampScroll() Model {
-	max := len(m.Lines) - 1
+	max := len(m.Lines) - m.pageSize()
 	if max < 0 {
 		max = 0
 	}
@@ -76,6 +72,33 @@ func (m Model) clampScroll() Model {
 		m.Scroll = max
 	}
 	return m
+}
+
+func (m Model) readerAvailWidth() int {
+	w := m.Width
+	if w <= 0 {
+		w = 80
+	}
+	w -= 6
+	if m.Sel.Diagrams == "sidebar" && m.Width >= 80 && len(m.Tab.Shapes) > 0 {
+		w = w * 2 / 3
+	}
+	if w < 20 {
+		w = 20
+	}
+	return w
+}
+
+func (m Model) readerCols() int {
+	return sheetColumns(m.readerAvailWidth(), m.Lines)
+}
+
+func (m Model) pageSize() int {
+	n := sheetVisible(m) * m.readerCols()
+	if n < 1 {
+		return 1
+	}
+	return n
 }
 
 func sheetVisible(m Model) int {
@@ -159,20 +182,44 @@ func layoutReaderBody(m Model, st theme.Styles, box lipgloss.Style, sheet, diagr
 }
 
 func renderSheet(m Model, st theme.Styles) string {
-	start := m.Scroll
-	if start < 0 {
-		start = 0
+	rows := sheetVisible(m)
+	cols := m.readerCols()
+	if cols < 1 {
+		cols = 1
 	}
-	if start > len(m.Lines) {
-		start = len(m.Lines)
+	avail := m.readerAvailWidth()
+	colW := avail / cols
+	if colW < 8 {
+		colW = 8
 	}
-	end := start + sheetVisible(m)
-	if end > len(m.Lines) {
-		end = len(m.Lines)
+	var blocks []string
+	for c := 0; c < cols; c++ {
+		start := m.Scroll + c*rows
+		if start < 0 {
+			start = 0
+		}
+		end := start + rows
+		if start > len(m.Lines) {
+			start = len(m.Lines)
+		}
+		if end > len(m.Lines) {
+			end = len(m.Lines)
+		}
+		blocks = append(blocks, renderLineRange(m.Lines[start:end], st, config.DensityGap(m.Sel.Density)))
 	}
-	gap := config.DensityGap(m.Sel.Density)
+	if cols == 1 {
+		return blocks[0]
+	}
+	styled := make([]string, 0, cols)
+	for _, b := range blocks {
+		styled = append(styled, lipgloss.NewStyle().Width(colW).MaxWidth(colW).Render(b))
+	}
+	return lipgloss.JoinHorizontal(lipgloss.Top, styled...)
+}
+
+func renderLineRange(lines []client.DisplayLine, st theme.Styles, gap int) string {
 	var b strings.Builder
-	for i, line := range m.Lines[start:end] {
+	for i, line := range lines {
 		if i > 0 {
 			for range gap {
 				b.WriteByte('\n')

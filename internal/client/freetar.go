@@ -10,18 +10,18 @@ var (
 	favRE = regexp.MustCompile(
 		`data-artist="([^"]*)"\s+data-song="([^"]*)"\s+data-type="([^"]*)"\s+data-rating="([^"]*)"\s+data-url="([^"]*)"`,
 	)
-	pageRE     = regexp.MustCompile(`[?&]page=(\d+)`)
+	pageRE      = regexp.MustCompile(`[?&]page=(\d+)`)
 	tabBodyRE   = regexp.MustCompile(`(?is)<div class="tab font-monospace">(.*?)</div>`)
 	chordPartRE = regexp.MustCompile(`(?is)<span class="chord-(?:root|quality|bass)"[^>]*>(.*?)</span>`)
 	chordBoxRE  = regexp.MustCompile(`(?is)<span class="chord[^"]*"[^>]*>(.*?)</span>`)
 	tagRE       = regexp.MustCompile(`(?is)<[^>]+>`)
-	brRE       = regexp.MustCompile(`(?i)<br\s*/?>`)
-	h5RE       = regexp.MustCompile(`(?is)<h5>(.*?)</h5>`)
-	diffRE     = regexp.MustCompile(`(?i)Difficulty:\s*([^<]+)`)
-	capoRE     = regexp.MustCompile(`(?i)Capo:\s*([^<]+)`)
-	tunRE      = regexp.MustCompile(`(?i)Tuning:\s*([^<]+)`)
-	oopsRE     = regexp.MustCompile(`(?i)Oops:`)
-	verRE      = regexp.MustCompile(`(?i)\(ver\s+(\d+)\)`)
+	brRE        = regexp.MustCompile(`(?i)<br\s*/?>`)
+	h5RE        = regexp.MustCompile(`(?is)<h5>(.*?)</h5>`)
+	diffRE      = regexp.MustCompile(`(?i)Difficulty:\s*([^<]+)`)
+	capoRE      = regexp.MustCompile(`(?i)Capo:\s*([^<]+)`)
+	tunRE       = regexp.MustCompile(`(?i)Tuning:\s*([^<]+)`)
+	oopsRE      = regexp.MustCompile(`(?i)Oops:`)
+	verRE       = regexp.MustCompile(`(?i)\(ver\s+(\d+)\)`)
 )
 
 func ParseFreetarSearch(htmlPage, query string, page int) (SearchPage, error) {

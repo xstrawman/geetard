@@ -166,7 +166,7 @@ func searchView(m Model) string {
 	}
 
 	body := box.Render(strings.TrimRight(b.String(), "\n"))
-	foot := "enter open   n/p page   / search   s settings   ? help   q quit"
+	foot := "enter open   n/p page   / search   l library   s settings   ? help   q quit"
 	if m.Status != "" {
 		foot = m.Status + "   " + foot
 	}

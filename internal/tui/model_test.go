@@ -7,6 +7,7 @@ import (
 	tea "charm.land/bubbletea/v2"
 	"geetard/internal/client"
 	"geetard/internal/config"
+	"geetard/internal/library"
 )
 
 func enterKey() tea.KeyPressMsg {
@@ -138,12 +139,51 @@ func TestSettingsView_hasPreview(t *testing.T) {
 	}
 }
 
+func TestTabOpen_savesToLibrary(t *testing.T) {
+	dir := t.TempDir()
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.LibraryDir = dir
+	next, _ := m.Update(tabMsg{Tab: client.TabDetail{
+		Path:   "willie-nelson/always-on-my-mind-chords-77919",
+		Artist: "Willie Nelson",
+		Song:   "Always On My Mind",
+		Raw:    "[ch]G[/ch]\nhello",
+	}})
+	got := next.(Model)
+	if got.State != StateReader {
+		t.Fatal(got.State)
+	}
+	list, err := library.List(dir)
+	if err != nil || len(list) != 1 || list[0].Song != "Always On My Mind" {
+		t.Fatalf("%+v %v", list, err)
+	}
+}
+
+func TestLibrary_openFromDisk(t *testing.T) {
+	dir := t.TempDir()
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.LibraryDir = dir
+	_ = library.Save(dir, library.FromTab(client.TabDetail{
+		Path: "a/b", Artist: "A", Song: "B", Raw: "body",
+	}))
+	next, _ := m.Update(press("l"))
+	lib := next.(Model)
+	if lib.State != StateLibrary || len(lib.Saved) != 1 {
+		t.Fatalf("%s %d", lib.State, len(lib.Saved))
+	}
+	next, _ = lib.Update(enterKey())
+	got := next.(Model)
+	if got.State != StateReader || got.Tab.Song != "B" {
+		t.Fatal(got.State, got.Tab.Song)
+	}
+}
+
 func TestHelpView_mentionsProxyAndKeys(t *testing.T) {
 	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
 	m.Width, m.Height = 80, 24
 	m.State = StateHelp
 	body := viewString(m.View())
-	for _, w := range []string{"freetar.de", "ultimate-guitar.com", "s settings", "a autoscroll"} {
+	for _, w := range []string{"freetar.de", "ultimate-guitar.com", "s settings", "a autoscroll", "l library"} {
 		if !strings.Contains(body, w) {
 			t.Fatal("missing", w, body)
 		}

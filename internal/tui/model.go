@@ -6,6 +6,7 @@ import (
 	tea "charm.land/bubbletea/v2"
 	"geetard/internal/client"
 	"geetard/internal/config"
+	"geetard/internal/library"
 	"geetard/internal/theme"
 )
 
@@ -16,6 +17,7 @@ const (
 	StateReader   State = "read"
 	StateSettings State = "settings"
 	StateHelp     State = "help"
+	StateLibrary  State = "library"
 )
 
 type Model struct {
@@ -38,16 +40,20 @@ type Model struct {
 	SettingIdx    int
 	ValueIdx      int
 	InValues      bool
+	LibraryDir    string
+	Saved         []library.Record
+	LibCursor     int
 }
 
 func New(c *client.Client, sel config.Selections, dir string) Model {
 	return Model{
-		State:     StateSearch,
-		Client:    c,
-		Sel:       sel,
-		ConfigDir: dir,
-		AutoOn:    sel.Autoscroll == "on",
-		AutoMs:    config.IntervalMs(sel.ScrollSpeed),
+		State:      StateSearch,
+		Client:     c,
+		Sel:        sel,
+		ConfigDir:  dir,
+		LibraryDir: config.DataDir(),
+		AutoOn:     sel.Autoscroll == "on",
+		AutoMs:     config.IntervalMs(sel.ScrollSpeed),
 	}
 }
 
@@ -80,6 +86,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.AutoOn = m.Sel.Autoscroll == "on"
 		m.State = StateReader
 		m.Status = ""
+		if m.LibraryDir != "" && m.Tab.Path != "" {
+			_ = library.Save(m.LibraryDir, library.FromTab(m.Tab))
+		}
 		if m.AutoOn {
 			return m, autoCmd(m.AutoMs)
 		}
@@ -99,7 +108,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		case "ctrl+c":
 			return m, tea.Quit
 		case "q":
-			if m.State == StateReader {
+			if m.State == StateReader || m.State == StateLibrary {
 				m.State = StateSearch
 				return m, nil
 			}
@@ -139,6 +148,11 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				m.Querying = true
 			}
 			return m, nil
+		case "l":
+			if m.State == StateSearch {
+				return m.openLibrary()
+			}
+			return m, nil
 		}
 		if m.State == StateSearch {
 			return m.updateSearchKeys(message)
@@ -148,6 +162,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		}
 		if m.State == StateSettings {
 			return m.updateSettingsKeys(message)
+		}
+		if m.State == StateLibrary {
+			return m.updateLibraryKeys(message)
 		}
 	}
 	return m, nil
@@ -164,6 +181,8 @@ func (m Model) View() tea.View {
 		content = settingsView(m)
 	case StateHelp:
 		content = helpView(m)
+	case StateLibrary:
+		content = libraryView(m)
 	default:
 		st := theme.Apply(theme.Must(m.Sel.Theme))
 		title := st.Title.Render(fmt.Sprintf("terminal GEETARD — %s", m.State))
@@ -199,6 +218,6 @@ func footerKeys(s State) string {
 	case StateSettings, StateHelp:
 		return "esc back   q quit"
 	default:
-		return "/ search   s settings   ? help   t theme   q quit"
+		return "/ search   l library   s settings   ? help   t theme   q quit"
 	}
 }

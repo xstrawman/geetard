@@ -34,6 +34,14 @@ func Dir() string {
 	return filepath.Join(home, ".config", "geetard")
 }
 
+func DataDir() string {
+	if d := os.Getenv("XDG_DATA_HOME"); d != "" {
+		return filepath.Join(d, "geetard")
+	}
+	home, _ := os.UserHomeDir()
+	return filepath.Join(home, ".local", "share", "geetard")
+}
+
 func Load(dir string) (Selections, string, error) {
 	def := Defaults()
 	b, err := os.ReadFile(filepath.Join(dir, "selections.json"))

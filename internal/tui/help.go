@@ -9,9 +9,10 @@ const helpBody = `terminal GEETARD talks to freetar.de.
 It never requests ultimate-guitar.com.
 
 / search     enter open     n/p page
-j/k scroll   space page     a autoscroll
-[ ] speed    s settings     t theme
-? help       q back/quit`
+l library    j/k scroll     space page
+a autoscroll [ ] speed      s settings
+t theme      ? help         q back/quit
+Wide chord sheets use 2–3 columns. Every opened tab is saved.`
 
 func helpView(m Model) string {
 	st := theme.SetBorder(theme.Apply(theme.Must(m.Sel.Theme)), m.Sel.Border)

@@ -31,6 +31,7 @@ type SearchResult struct {
 }
 
 type TabDetail struct {
+	Path       string
 	Artist     string
 	Song       string
 	Version    int
