@@ -210,3 +210,42 @@ func TestSettings_openSyncsValueIdx(t *testing.T) {
 		t.Fatal(got.ValueIdx)
 	}
 }
+
+func TestSearch_enterSetsSearchingStatus(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.Querying = true
+	m.Query = "nelson"
+	next, cmd := m.Update(enterKey())
+	got := next.(Model)
+	if got.Status != "searching…" {
+		t.Fatal(got.Status)
+	}
+	if cmd == nil {
+		t.Fatal("expected search command")
+	}
+}
+
+func TestSearchView_noResultsAndCursor(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.Width, m.Height = 80, 24
+	m.Query = "zzzz"
+	m.Querying = true
+	m.Results = client.SearchPage{Query: "zzzz", Page: 1, TotalPages: 1}
+	body := viewString(m.View())
+	if !strings.Contains(body, "no results") {
+		t.Fatal(body)
+	}
+	if !strings.Contains(body, "/ zzzz|") {
+		t.Fatal("missing query cursor", body)
+	}
+}
+
+func TestSearch_nOnLastPageDoesNotRefetch(t *testing.T) {
+	m := New(client.New("http://127.0.0.1:1", "http://127.0.0.1:1"), config.Defaults(), t.TempDir())
+	m.Query = "nelson"
+	m.Results = client.SearchPage{Query: "nelson", Page: 2, TotalPages: 2, Results: []client.SearchResult{{Path: "a/b"}}}
+	_, cmd := m.Update(press("n"))
+	if cmd != nil {
+		t.Fatal("last page must not refetch")
+	}
+}

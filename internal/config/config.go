@@ -60,25 +60,22 @@ func Load(dir string) (Selections, string, error) {
 
 func applyDefaults(s Selections) Selections {
 	d := Defaults()
-	if s.Theme == "" {
-		s.Theme = d.Theme
-	}
-	if s.Border == "" {
-		s.Border = d.Border
-	}
-	if s.Density == "" {
-		s.Density = d.Density
-	}
-	if s.Autoscroll == "" {
-		s.Autoscroll = d.Autoscroll
-	}
-	if s.ScrollSpeed == "" {
-		s.ScrollSpeed = d.ScrollSpeed
-	}
-	if s.Diagrams == "" {
-		s.Diagrams = d.Diagrams
-	}
+	s.Theme = oneOf(s.Theme, []string{"amber", "green", "mono", "nord"}, d.Theme)
+	s.Border = oneOf(s.Border, []string{"ascii", "normal", "rounded", "none"}, d.Border)
+	s.Density = oneOf(s.Density, []string{"compact", "normal", "airy"}, d.Density)
+	s.Autoscroll = oneOf(s.Autoscroll, []string{"off", "on"}, d.Autoscroll)
+	s.ScrollSpeed = oneOf(s.ScrollSpeed, []string{"slow", "medium", "fast"}, d.ScrollSpeed)
+	s.Diagrams = oneOf(s.Diagrams, []string{"off", "sidebar", "below"}, d.Diagrams)
 	return s
+}
+
+func oneOf(v string, opts []string, def string) string {
+	for _, o := range opts {
+		if v == o {
+			return v
+		}
+	}
+	return def
 }
 
 func Save(dir string, s Selections) error {

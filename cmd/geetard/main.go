@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 
@@ -11,6 +12,17 @@ import (
 )
 
 func main() {
+	if term := os.Getenv("TERM"); term == "" || term == "dumb" {
+		_ = os.Setenv("TERM", "xterm-256color")
+	}
+	if tty, err := os.OpenFile("/dev/tty", os.O_RDWR, 0); err != nil {
+		fmt.Fprintln(os.Stderr, "geetard needs a real terminal.")
+		fmt.Fprintln(os.Stderr, "On ChromeOS: Settings → Advanced → Developers → Linux, then open the Linux Terminal app and run geetard.")
+		os.Exit(1)
+	} else {
+		_ = tty.Close()
+	}
+
 	dir := config.Dir()
 	sel, warn, err := config.Load(dir)
 	if err != nil {

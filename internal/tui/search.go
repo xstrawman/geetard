@@ -47,6 +47,7 @@ func (m Model) updateSearchQuery(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 			return m, nil
 		}
 		m.Querying = false
+		m.Status = "searching…"
 		return m, SearchCmd(m, m.Query, 1)
 	case "backspace":
 		if q := []rune(m.Query); len(q) > 0 {
@@ -79,13 +80,14 @@ func (m Model) updateSearchKeys(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 			m.Cursor--
 		}
 	case "n":
-		return m, m.searchPage(1)
+		return m.searchPage(1)
 	case "p":
-		return m, m.searchPage(-1)
+		return m.searchPage(-1)
 	case "enter", "space":
 		if i := m.Cursor; i >= 0 && i < len(m.Results.Results) {
 			path := m.Results.Results[i].Path
 			if path != "" {
+				m.Status = "opening…"
 				return m, TabCmd(m, path)
 			}
 		}
@@ -101,13 +103,13 @@ func searchVisible(m Model) int {
 	return n
 }
 
-func (m Model) searchPage(delta int) tea.Cmd {
+func (m Model) searchPage(delta int) (tea.Model, tea.Cmd) {
 	q := m.Results.Query
 	if q == "" {
 		q = m.Query
 	}
 	if q == "" {
-		return nil
+		return m, nil
 	}
 	total := m.Results.TotalPages
 	if total < 1 {
@@ -117,14 +119,18 @@ func (m Model) searchPage(delta int) tea.Cmd {
 	if page < 1 {
 		page = 1
 	}
-	page += delta
-	if page < 1 {
-		page = 1
+	next := page + delta
+	if next < 1 {
+		next = 1
 	}
-	if page > total {
-		page = total
+	if next > total {
+		next = total
 	}
-	return SearchCmd(m, q, page)
+	if next == page && m.Results.Query != "" {
+		return m, nil
+	}
+	m.Status = "searching…"
+	return m, SearchCmd(m, q, next)
 }
 
 func searchView(m Model) string {
@@ -142,27 +148,41 @@ func searchView(m Model) string {
 	var b strings.Builder
 	b.WriteString("/ ")
 	b.WriteString(m.Query)
+	if m.Querying {
+		b.WriteString("|")
+	}
 	b.WriteString("\n\n")
-	fmt.Fprintf(&b, "%-22s %-28s %-8s %s\n", "ARTIST", "SONG", "TYPE", "★")
-	rows := searchVisible(m)
-	start := 0
-	if m.Cursor >= rows {
-		start = m.Cursor - rows + 1
-	}
-	end := start + rows
-	if end > len(m.Results.Results) {
-		end = len(m.Results.Results)
-	}
-	for i := start; i < end; i++ {
-		r := m.Results.Results[i]
-		line := fmt.Sprintf("%-22s %-28s %-8s %.1f", r.Artist, r.Song, r.Type, r.Rating)
-		if i == m.Cursor {
-			line = st.Selected.Render(line)
-		} else {
-			line = st.Body.Render(line)
+	if len(m.Results.Results) == 0 {
+		switch {
+		case m.Status == "searching…":
+			b.WriteString(st.Body.Render("searching…"))
+		case m.Query != "" || m.Results.Query != "":
+			b.WriteString(st.Body.Render("no results"))
+		default:
+			b.WriteString(st.Body.Render("type / then a song or artist"))
 		}
-		b.WriteString(line)
-		b.WriteByte('\n')
+	} else {
+		fmt.Fprintf(&b, "%-22s %-28s %-8s %s\n", "ARTIST", "SONG", "TYPE", "★")
+		rows := searchVisible(m)
+		start := 0
+		if m.Cursor >= rows {
+			start = m.Cursor - rows + 1
+		}
+		end := start + rows
+		if end > len(m.Results.Results) {
+			end = len(m.Results.Results)
+		}
+		for i := start; i < end; i++ {
+			r := m.Results.Results[i]
+			line := fmt.Sprintf("%-22s %-28s %-8s %.1f", r.Artist, r.Song, r.Type, r.Rating)
+			if i == m.Cursor {
+				line = st.Selected.Render(line)
+			} else {
+				line = st.Body.Render(line)
+			}
+			b.WriteString(line)
+			b.WriteByte('\n')
+		}
 	}
 
 	body := box.Render(strings.TrimRight(b.String(), "\n"))

@@ -5,7 +5,7 @@ import (
 	"geetard/internal/theme"
 )
 
-const helpBody = `terminal GEETARD talks to freetar.de.
+const helpBody = `terminal GEETARD talks to freetar.de (and fallback instances).
 It never requests ultimate-guitar.com.
 
 / search     enter open     n/p page

@@ -85,3 +85,45 @@ func TestClientSearch_refusesUGRedirect(t *testing.T) {
 		t.Fatal("expected reject")
 	}
 }
+
+func TestClientSearch_fallsBackWhenFirstHostOops(t *testing.T) {
+	dead := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		_, _ = w.Write([]byte(testdata(t, "freetar_oops.html")))
+	}))
+	defer dead.Close()
+	good := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		_, _ = w.Write([]byte(testdata(t, "freetar_search.html")))
+	}))
+	defer good.Close()
+
+	c := New(dead.URL, dead.URL)
+	c.SearchHosts = []string{dead.URL, good.URL}
+	page, err := c.Search("nelson", 1)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(page.Results) < 1 || page.Results[0].Artist == "" {
+		t.Fatalf("%+v", page)
+	}
+}
+
+func TestClientTab_fallsBackWhenFirstHostOops(t *testing.T) {
+	dead := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		_, _ = w.Write([]byte(testdata(t, "freetar_oops.html")))
+	}))
+	defer dead.Close()
+	good := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		_, _ = w.Write([]byte(testdata(t, "freetar_tab.html")))
+	}))
+	defer good.Close()
+
+	c := New(dead.URL, dead.URL)
+	c.TabHosts = []string{dead.URL, good.URL}
+	tab, err := c.Tab("nelson/cant-live-1")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if tab.Artist == "" || tab.Raw == "" {
+		t.Fatalf("%+v", tab)
+	}
+}

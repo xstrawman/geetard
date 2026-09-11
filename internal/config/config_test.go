@@ -72,3 +72,19 @@ func TestIntervalMs(t *testing.T) {
 		t.Fatal(IntervalMs("slow"), IntervalMs("medium"), IntervalMs("fast"))
 	}
 }
+
+func TestLoad_unknownValuesFallBack(t *testing.T) {
+	dir := t.TempDir()
+	src := []byte(`{"theme":"hotpink","border":"neon","density":"huge","autoscroll":"maybe","scroll_speed":"ludicrous","diagrams":"3d"}`)
+	if err := os.WriteFile(filepath.Join(dir, "selections.json"), src, 0o644); err != nil {
+		t.Fatal(err)
+	}
+	s, _, err := Load(dir)
+	if err != nil {
+		t.Fatal(err)
+	}
+	d := Defaults()
+	if s != d {
+		t.Fatalf("got %+v want %+v", s, d)
+	}
+}

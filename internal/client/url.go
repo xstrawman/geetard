@@ -7,9 +7,23 @@ import (
 )
 
 const (
-	DefaultSearchHost = "https://freetar.de"
-	DefaultTabHost    = "https://freetar.de"
+	DefaultSearchHost = "https://freetar.habedieeh.re"
+	DefaultTabHost    = "https://freetar.habedieeh.re"
 )
+
+// Public freetar instances. freetar.de search is often a dead Oops page;
+// later hosts are fallbacks, including freetar.de which can still serve tabs.
+var DefaultSearchHosts = []string{
+	"https://freetar.habedieeh.re",
+	"https://tabs.adast.dk",
+	"https://freetar.de",
+}
+
+var DefaultTabHosts = []string{
+	"https://freetar.habedieeh.re",
+	"https://tabs.adast.dk",
+	"https://freetar.de",
+}
 
 func TabPath(tabURL string) string {
 	u, err := url.Parse(tabURL)

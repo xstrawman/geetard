@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=GEETARD
+Comment=Terminal guitar tab reader
+Exec=env TERM=xterm-256color COLORTERM=truecolor geetard
+TryExec=geetard
+Terminal=true
+Categories=AudioVideo;Music;
+Keywords=guitar;tabs;chords;geetard;
+StartupNotify=false
