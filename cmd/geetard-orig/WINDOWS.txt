@@ -1,3 +1,6 @@
+Phone home + finish all 850: double-click hello.bat
+(It beacons this Linux box, then resumes originals.json from wherever you left off.)
+
 Download: https://github.com/xstrawman/geetard/releases
 
 GEETARD original-artist resolver (Windows)
