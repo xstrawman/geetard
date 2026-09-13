@@ -1,0 +1,5108 @@
+{
+  "version": 1,
+  "source": "/home/mountaindewurbest/COVER SONGS.md",
+  "count": 850,
+  "note": "Policy A+C else B+C. Mission: original record performance (shapes as played, tuning noted — e.g. Collective Soul Run = C shapes + 1/2 step down, not concert-pitch B). cover_artist is list metadata / B fallback only. original_artist is the library key when resolved. One Chords sheet per song. original_artist is still unresolved in this file.",
+  "songs": [
+    {
+      "rank": 1,
+      "title": "Hurt",
+      "cover_artist": "Johnny Cash",
+      "original_artist": null
+    },
+    {
+      "rank": 2,
+      "title": "All Along The Watchtower",
+      "cover_artist": "Jimi Hendrix",
+      "original_artist": null
+    },
+    {
+      "rank": 3,
+      "title": "Hallelujah",
+      "cover_artist": "Jeff Buckley",
+      "original_artist": null
+    },
+    {
+      "rank": 4,
+      "title": "Sweet Jane",
+      "cover_artist": "Cowboy Junkies",
+      "original_artist": null
+    },
+    {
+      "rank": 5,
+      "title": "Nothing Compares 2 U",
+      "cover_artist": "Sinéad O'Connor",
+      "original_artist": null
+    },
+    {
+      "rank": 6,
+      "title": "Take Me To The River",
+      "cover_artist": "Talking Heads",
+      "original_artist": null
+    },
+    {
+      "rank": 7,
+      "title": "Mad World",
+      "cover_artist": "Gary Jules & Michael Andrews",
+      "original_artist": null
+    },
+    {
+      "rank": 8,
+      "title": "Angel From Montgomery",
+      "cover_artist": "Bonnie Raitt",
+      "original_artist": null
+    },
+    {
+      "rank": 9,
+      "title": "I Will Survive",
+      "cover_artist": "Cake",
+      "original_artist": null
+    },
+    {
+      "rank": 10,
+      "title": "Respect",
+      "cover_artist": "Aretha Franklin",
+      "original_artist": null
+    },
+    {
+      "rank": 11,
+      "title": "The Man Who Sold The World",
+      "cover_artist": "Nirvana",
+      "original_artist": null
+    },
+    {
+      "rank": 12,
+      "title": "(I Can't Get No) Satisfaction",
+      "cover_artist": "Devo",
+      "original_artist": null
+    },
+    {
+      "rank": 13,
+      "title": "I Fought The Law",
+      "cover_artist": "The Clash",
+      "original_artist": null
+    },
+    {
+      "rank": 14,
+      "title": "Ring Of Fire",
+      "cover_artist": "Social Distortion",
+      "original_artist": null
+    },
+    {
+      "rank": 15,
+      "title": "Tainted Love",
+      "cover_artist": "Soft Cell",
+      "original_artist": null
+    },
+    {
+      "rank": 16,
+      "title": "With A Little Help From My Friends",
+      "cover_artist": "Joe Cocker",
+      "original_artist": null
+    },
+    {
+      "rank": 17,
+      "title": "I Will Always Love You",
+      "cover_artist": "Whitney Houston",
+      "original_artist": null
+    },
+    {
+      "rank": 18,
+      "title": "Proud Mary",
+      "cover_artist": "Ike & Tina Turner",
+      "original_artist": null
+    },
+    {
+      "rank": 19,
+      "title": "Such Great Heights",
+      "cover_artist": "Iron & Wine",
+      "original_artist": null
+    },
+    {
+      "rank": 20,
+      "title": "Killing Me Softly",
+      "cover_artist": "Fugees",
+      "original_artist": null
+    },
+    {
+      "rank": 21,
+      "title": "Me & Bobby McGee",
+      "cover_artist": "Janis Joplin",
+      "original_artist": null
+    },
+    {
+      "rank": 22,
+      "title": "Jolene",
+      "cover_artist": "Beyoncé",
+      "original_artist": null
+    },
+    {
+      "rank": 23,
+      "title": "You Really Got Me",
+      "cover_artist": "Van Halen",
+      "original_artist": null
+    },
+    {
+      "rank": 24,
+      "title": "Twist And Shout",
+      "cover_artist": "The Beatles",
+      "original_artist": null
+    },
+    {
+      "rank": 25,
+      "title": "Hazy Shade Of Winter",
+      "cover_artist": "The Bangles",
+      "original_artist": null
+    },
+    {
+      "rank": 26,
+      "title": "Gin And Juice",
+      "cover_artist": "The Gourds",
+      "original_artist": null
+    },
+    {
+      "rank": 27,
+      "title": "Valerie",
+      "cover_artist": "Amy Winehouse & Mark Ronson",
+      "original_artist": null
+    },
+    {
+      "rank": 28,
+      "title": "Because The Night",
+      "cover_artist": "10,000 Maniacs",
+      "original_artist": null
+    },
+    {
+      "rank": 29,
+      "title": "In Bloom",
+      "cover_artist": "Sturgill Simpson",
+      "original_artist": null
+    },
+    {
+      "rank": 30,
+      "title": "Where Did You Sleep Last Night?",
+      "cover_artist": "Nirvana",
+      "original_artist": null
+    },
+    {
+      "rank": 31,
+      "title": "Wild Is The Wind",
+      "cover_artist": "David Bowie",
+      "original_artist": null
+    },
+    {
+      "rank": 32,
+      "title": "Over The Rainbow",
+      "cover_artist": "Israel Kamakawiwo'ole",
+      "original_artist": null
+    },
+    {
+      "rank": 33,
+      "title": "Landslide",
+      "cover_artist": "Smashing Pumpkins",
+      "original_artist": null
+    },
+    {
+      "rank": 34,
+      "title": "The Passenger",
+      "cover_artist": "Siouxsie & The Banshees",
+      "original_artist": null
+    },
+    {
+      "rank": 35,
+      "title": "Higher Ground",
+      "cover_artist": "Red Hot Chili Peppers",
+      "original_artist": null
+    },
+    {
+      "rank": 36,
+      "title": "(What's So Funny 'Bout) Peace, Love & Understanding",
+      "cover_artist": "Elvis Costello",
+      "original_artist": null
+    },
+    {
+      "rank": 37,
+      "title": "Dear Prudence",
+      "cover_artist": "Siouxsie & The Banshees",
+      "original_artist": null
+    },
+    {
+      "rank": 38,
+      "title": "Black Magic Woman",
+      "cover_artist": "Santana",
+      "original_artist": null
+    },
+    {
+      "rank": 39,
+      "title": "Turn The Page",
+      "cover_artist": "Metallica",
+      "original_artist": null
+    },
+    {
+      "rank": 40,
+      "title": "Superman",
+      "cover_artist": "R.E.M.",
+      "original_artist": null
+    },
+    {
+      "rank": 41,
+      "title": "Mrs. Robinson",
+      "cover_artist": "The Lemonheads",
+      "original_artist": null
+    },
+    {
+      "rank": 42,
+      "title": "Stop Your Sobbing",
+      "cover_artist": "The Pretenders",
+      "original_artist": null
+    },
+    {
+      "rank": 43,
+      "title": "Lake Of Fire",
+      "cover_artist": "Nirvana",
+      "original_artist": null
+    },
+    {
+      "rank": 44,
+      "title": "Red, Red Wine",
+      "cover_artist": "UB40",
+      "original_artist": null
+    },
+    {
+      "rank": 45,
+      "title": "Changes",
+      "cover_artist": "Charles Bradley",
+      "original_artist": null
+    },
+    {
+      "rank": 46,
+      "title": "When The Levee Breaks",
+      "cover_artist": "Led Zeppelin",
+      "original_artist": null
+    },
+    {
+      "rank": 47,
+      "title": "Girl, You'll Be A Woman Soon",
+      "cover_artist": "Urge Overkill",
+      "original_artist": null
+    },
+    {
+      "rank": 48,
+      "title": "Crimson & Clover",
+      "cover_artist": "Joan Jett",
+      "original_artist": null
+    },
+    {
+      "rank": 49,
+      "title": "Blinded By The Light",
+      "cover_artist": "Manfred Mann's Earth Band",
+      "original_artist": null
+    },
+    {
+      "rank": 50,
+      "title": "Landslide",
+      "cover_artist": "The Chicks",
+      "original_artist": null
+    },
+    {
+      "rank": 51,
+      "title": "Woodstock",
+      "cover_artist": "Crosby, Stills, Nash & Young",
+      "original_artist": null
+    },
+    {
+      "rank": 52,
+      "title": "American Woman",
+      "cover_artist": "Lenny Kravitz",
+      "original_artist": null
+    },
+    {
+      "rank": 53,
+      "title": "Wild Horses",
+      "cover_artist": "The Sundays",
+      "original_artist": null
+    },
+    {
+      "rank": 54,
+      "title": "Rusty Cage",
+      "cover_artist": "Johnny Cash",
+      "original_artist": null
+    },
+    {
+      "rank": 55,
+      "title": "Trapped",
+      "cover_artist": "Bruce Springsteen & The E Street Band",
+      "original_artist": null
+    },
+    {
+      "rank": 56,
+      "title": "Suspicious Minds",
+      "cover_artist": "Elvis Presley",
+      "original_artist": null
+    },
+    {
+      "rank": 57,
+      "title": "I Love Rock N Roll",
+      "cover_artist": "Joan Jett & The Blackhearts",
+      "original_artist": null
+    },
+    {
+      "rank": 58,
+      "title": "Running Up That Hill",
+      "cover_artist": "Placebo",
+      "original_artist": null
+    },
+    {
+      "rank": 59,
+      "title": "All Along The Watchtower (Live At Red Rocks)",
+      "cover_artist": "Dave Matthews Band",
+      "original_artist": null
+    },
+    {
+      "rank": 60,
+      "title": "Personal Jesus",
+      "cover_artist": "Johnny Cash",
+      "original_artist": null
+    },
+    {
+      "rank": 61,
+      "title": "Last Kiss",
+      "cover_artist": "Pearl Jam",
+      "original_artist": null
+    },
+    {
+      "rank": 62,
+      "title": "Jolene",
+      "cover_artist": "White Stripes",
+      "original_artist": null
+    },
+    {
+      "rank": 63,
+      "title": "Everybody Knows",
+      "cover_artist": "Concrete Blonde",
+      "original_artist": null
+    },
+    {
+      "rank": 64,
+      "title": "Istanbul (Not Constantinople)",
+      "cover_artist": "They Might Be Giants",
+      "original_artist": null
+    },
+    {
+      "rank": 65,
+      "title": "Always On My Mind",
+      "cover_artist": "Pet Shop Boys",
+      "original_artist": null
+    },
+    {
+      "rank": 66,
+      "title": "Torn",
+      "cover_artist": "Natalie Imbruglia",
+      "original_artist": null
+    },
+    {
+      "rank": 67,
+      "title": "Jealous Guy",
+      "cover_artist": "Roxy Music",
+      "original_artist": null
+    },
+    {
+      "rank": 68,
+      "title": "Song To The Siren",
+      "cover_artist": "This Mortal Coil",
+      "original_artist": null
+    },
+    {
+      "rank": 69,
+      "title": "Babe I'm Gonna Leave You",
+      "cover_artist": "Led Zeppelin",
+      "original_artist": null
+    },
+    {
+      "rank": 70,
+      "title": "Mr. Tambourine Man",
+      "cover_artist": "The Byrds",
+      "original_artist": null
+    },
+    {
+      "rank": 71,
+      "title": "Little Wing",
+      "cover_artist": "Stevie Ray Vaughan",
+      "original_artist": null
+    },
+    {
+      "rank": 72,
+      "title": "Eight Miles High",
+      "cover_artist": "Husker Du",
+      "original_artist": null
+    },
+    {
+      "rank": 73,
+      "title": "Just Breathe",
+      "cover_artist": "Willie Nelson & Lukas Nelson",
+      "original_artist": null
+    },
+    {
+      "rank": 74,
+      "title": "Boom Boom",
+      "cover_artist": "Big Head Todd & The Monsters",
+      "original_artist": null
+    },
+    {
+      "rank": 75,
+      "title": "I Shot The Sheriff",
+      "cover_artist": "Eric Clapton",
+      "original_artist": null
+    },
+    {
+      "rank": 76,
+      "title": "Crazy Mary",
+      "cover_artist": "Pearl Jam",
+      "original_artist": null
+    },
+    {
+      "rank": 77,
+      "title": "Crazy",
+      "cover_artist": "R.E.M.",
+      "original_artist": null
+    },
+    {
+      "rank": 78,
+      "title": "Heartbeats",
+      "cover_artist": "José González",
+      "original_artist": null
+    },
+    {
+      "rank": 79,
+      "title": "The Boys Of Summer",
+      "cover_artist": "The Ataris",
+      "original_artist": null
+    },
+    {
+      "rank": 80,
+      "title": "Hanging On The Telephone",
+      "cover_artist": "Blondie",
+      "original_artist": null
+    },
+    {
+      "rank": 81,
+      "title": "Walk This Way",
+      "cover_artist": "Run-D.M.C.",
+      "original_artist": null
+    },
+    {
+      "rank": 82,
+      "title": "You're No Good",
+      "cover_artist": "Linda Ronstadt",
+      "original_artist": null
+    },
+    {
+      "rank": 83,
+      "title": "Hard To Handle",
+      "cover_artist": "Black Crowes",
+      "original_artist": null
+    },
+    {
+      "rank": 84,
+      "title": "Superstar",
+      "cover_artist": "Sonic Youth",
+      "original_artist": null
+    },
+    {
+      "rank": 85,
+      "title": "Ball Of Confusion",
+      "cover_artist": "Love & Rockets",
+      "original_artist": null
+    },
+    {
+      "rank": 86,
+      "title": "Africa",
+      "cover_artist": "Weezer",
+      "original_artist": null
+    },
+    {
+      "rank": 87,
+      "title": "It's Oh So Quiet",
+      "cover_artist": "Björk",
+      "original_artist": null
+    },
+    {
+      "rank": 88,
+      "title": "Venus",
+      "cover_artist": "Bananarama",
+      "original_artist": null
+    },
+    {
+      "rank": 89,
+      "title": "Tears Of A Clown",
+      "cover_artist": "English Beat",
+      "original_artist": null
+    },
+    {
+      "rank": 90,
+      "title": "Summertime Blues",
+      "cover_artist": "The Who",
+      "original_artist": null
+    },
+    {
+      "rank": 91,
+      "title": "Perhaps Perhaps Perhaps",
+      "cover_artist": "Cake",
+      "original_artist": null
+    },
+    {
+      "rank": 92,
+      "title": "Police On My Back",
+      "cover_artist": "The Clash",
+      "original_artist": null
+    },
+    {
+      "rank": 93,
+      "title": "Smooth Criminal",
+      "cover_artist": "Alien Ant Farm",
+      "original_artist": null
+    },
+    {
+      "rank": 94,
+      "title": "Atlantic City",
+      "cover_artist": "The Band",
+      "original_artist": null
+    },
+    {
+      "rank": 95,
+      "title": "That's All Right",
+      "cover_artist": "Elvis Presley",
+      "original_artist": null
+    },
+    {
+      "rank": 96,
+      "title": "Bertha",
+      "cover_artist": "Los Lobos",
+      "original_artist": null
+    },
+    {
+      "rank": 97,
+      "title": "Pictures Of Matchstick Men",
+      "cover_artist": "Camper Van Beethoven",
+      "original_artist": null
+    },
+    {
+      "rank": 98,
+      "title": "Strawberry Letter #23",
+      "cover_artist": "Brothers Johnson",
+      "original_artist": null
+    },
+    {
+      "rank": 99,
+      "title": "Knockin' On Heaven's Door",
+      "cover_artist": "Guns N Roses",
+      "original_artist": null
+    },
+    {
+      "rank": 100,
+      "title": "Just Like Heaven",
+      "cover_artist": "Dinosaur Jr.",
+      "original_artist": null
+    },
+    {
+      "rank": 101,
+      "title": "Always Something There To Remind Me",
+      "cover_artist": "Naked Eyes",
+      "original_artist": null
+    },
+    {
+      "rank": 102,
+      "title": "Stand By Me",
+      "cover_artist": "Tracy Chapman",
+      "original_artist": null
+    },
+    {
+      "rank": 103,
+      "title": "Clay Pigeons",
+      "cover_artist": "John Prine",
+      "original_artist": null
+    },
+    {
+      "rank": 104,
+      "title": "Redemption Song",
+      "cover_artist": "Johnny Cash & Joe Strummer",
+      "original_artist": null
+    },
+    {
+      "rank": 105,
+      "title": "Ripple",
+      "cover_artist": "Jane's Addiction",
+      "original_artist": null
+    },
+    {
+      "rank": 106,
+      "title": "White Rabbit",
+      "cover_artist": "Molly Tuttle & Golden Highway",
+      "original_artist": null
+    },
+    {
+      "rank": 107,
+      "title": "Police & Thieves",
+      "cover_artist": "The Clash",
+      "original_artist": null
+    },
+    {
+      "rank": 108,
+      "title": "I Heard It Through The Grapevine",
+      "cover_artist": "Marvin Gaye",
+      "original_artist": null
+    },
+    {
+      "rank": 109,
+      "title": "It's My Life",
+      "cover_artist": "No Doubt",
+      "original_artist": null
+    },
+    {
+      "rank": 110,
+      "title": "Suspicious Minds",
+      "cover_artist": "Fine Young Cannibals",
+      "original_artist": null
+    },
+    {
+      "rank": 111,
+      "title": "Jump, Jive An' Wail",
+      "cover_artist": "Brian Setzer Orchestra",
+      "original_artist": null
+    },
+    {
+      "rank": 112,
+      "title": "House Of The Rising Sun",
+      "cover_artist": "The Animals",
+      "original_artist": null
+    },
+    {
+      "rank": 113,
+      "title": "Sea Of Love",
+      "cover_artist": "Cat Power",
+      "original_artist": null
+    },
+    {
+      "rank": 114,
+      "title": "Pale Blue Eyes",
+      "cover_artist": "R.E.M.",
+      "original_artist": null
+    },
+    {
+      "rank": 115,
+      "title": "America",
+      "cover_artist": "First Aid Kit",
+      "original_artist": null
+    },
+    {
+      "rank": 116,
+      "title": "You've Got To Hide Your Love Away",
+      "cover_artist": "Eddie Vedder",
+      "original_artist": null
+    },
+    {
+      "rank": 117,
+      "title": "All The Young Dudes",
+      "cover_artist": "David Bowie",
+      "original_artist": null
+    },
+    {
+      "rank": 118,
+      "title": "Nothing Else Matters",
+      "cover_artist": "Phoebe Bridgers",
+      "original_artist": null
+    },
+    {
+      "rank": 119,
+      "title": "We Can Work It Out",
+      "cover_artist": "Stevie Wonder",
+      "original_artist": null
+    },
+    {
+      "rank": 120,
+      "title": "Money (That's What I Want)",
+      "cover_artist": "Flying Lizards",
+      "original_artist": null
+    },
+    {
+      "rank": 121,
+      "title": "Bizarre Love Triangle",
+      "cover_artist": "Frente!",
+      "original_artist": null
+    },
+    {
+      "rank": 122,
+      "title": "Toys In The Attic",
+      "cover_artist": "R.E.M.",
+      "original_artist": null
+    },
+    {
+      "rank": 123,
+      "title": "Big Yellow Taxi",
+      "cover_artist": "Counting Crows",
+      "original_artist": null
+    },
+    {
+      "rank": 124,
+      "title": "Pressure Drop",
+      "cover_artist": "The Clash",
+      "original_artist": null
+    },
+    {
+      "rank": 125,
+      "title": "Alone Again Or",
+      "cover_artist": "Calexico",
+      "original_artist": null
+    },
+    {
+      "rank": 126,
+      "title": "Harvest Moon",
+      "cover_artist": "Lord Huron",
+      "original_artist": null
+    },
+    {
+      "rank": 127,
+      "title": "To Love Somebody",
+      "cover_artist": "Nina Simone",
+      "original_artist": null
+    },
+    {
+      "rank": 128,
+      "title": "Fields Of Gold",
+      "cover_artist": "Eva Cassidy",
+      "original_artist": null
+    },
+    {
+      "rank": 129,
+      "title": "Just My Imagination",
+      "cover_artist": "Rolling Stones",
+      "original_artist": null
+    },
+    {
+      "rank": 130,
+      "title": "Girls Just Want To Have Fun",
+      "cover_artist": "Cyndi Lauper",
+      "original_artist": null
+    },
+    {
+      "rank": 131,
+      "title": "People Are Strange",
+      "cover_artist": "Echo & The Bunnymen",
+      "original_artist": null
+    },
+    {
+      "rank": 132,
+      "title": "I Don't Wanna Grow Up",
+      "cover_artist": "The Ramones",
+      "original_artist": null
+    },
+    {
+      "rank": 133,
+      "title": "Ice Cream Man",
+      "cover_artist": "Van Halen",
+      "original_artist": null
+    },
+    {
+      "rank": 134,
+      "title": "Midnight Train To Georgia",
+      "cover_artist": "Gladys Knight & The Pips",
+      "original_artist": null
+    },
+    {
+      "rank": 135,
+      "title": "Brandy (You're A Fine Girl)",
+      "cover_artist": "Big Head Todd & The Monsters",
+      "original_artist": null
+    },
+    {
+      "rank": 136,
+      "title": "Freddie's Dead",
+      "cover_artist": "Fishbone",
+      "original_artist": null
+    },
+    {
+      "rank": 137,
+      "title": "Telegram Sam",
+      "cover_artist": "Bauhaus",
+      "original_artist": null
+    },
+    {
+      "rank": 138,
+      "title": "Black Diamond",
+      "cover_artist": "The Replacements",
+      "original_artist": null
+    },
+    {
+      "rank": 139,
+      "title": "Across The Universe",
+      "cover_artist": "Fiona Apple",
+      "original_artist": null
+    },
+    {
+      "rank": 140,
+      "title": "Band On The Run",
+      "cover_artist": "Foo Fighters",
+      "original_artist": null
+    },
+    {
+      "rank": 141,
+      "title": "Cum On Feel The Noize",
+      "cover_artist": "Quiet Riot",
+      "original_artist": null
+    },
+    {
+      "rank": 142,
+      "title": "Feelin' Alright",
+      "cover_artist": "Joe Cocker",
+      "original_artist": null
+    },
+    {
+      "rank": 143,
+      "title": "Alone Again Or",
+      "cover_artist": "The Damned",
+      "original_artist": null
+    },
+    {
+      "rank": 144,
+      "title": "Not Fade Away",
+      "cover_artist": "Rolling Stones",
+      "original_artist": null
+    },
+    {
+      "rank": 145,
+      "title": "Feeling Good",
+      "cover_artist": "Nina Simone",
+      "original_artist": null
+    },
+    {
+      "rank": 146,
+      "title": "The Promise",
+      "cover_artist": "Sturgill Simpson",
+      "original_artist": null
+    },
+    {
+      "rank": 147,
+      "title": "I Want Candy",
+      "cover_artist": "Bow Wow Wow",
+      "original_artist": null
+    },
+    {
+      "rank": 148,
+      "title": "Riding With The King",
+      "cover_artist": "B.B. King & Eric Clapton",
+      "original_artist": null
+    },
+    {
+      "rank": 149,
+      "title": "Easy",
+      "cover_artist": "Faith No More",
+      "original_artist": null
+    },
+    {
+      "rank": 150,
+      "title": "Georgia On My Mind",
+      "cover_artist": "Ray Charles",
+      "original_artist": null
+    },
+    {
+      "rank": 151,
+      "title": "Act Naturally",
+      "cover_artist": "The Beatles",
+      "original_artist": null
+    },
+    {
+      "rank": 152,
+      "title": "Sweet Thing",
+      "cover_artist": "The Waterboys",
+      "original_artist": null
+    },
+    {
+      "rank": 153,
+      "title": "Head On",
+      "cover_artist": "Pixies",
+      "original_artist": null
+    },
+    {
+      "rank": 154,
+      "title": "Swingin' Party",
+      "cover_artist": "Lorde",
+      "original_artist": null
+    },
+    {
+      "rank": 155,
+      "title": "Brand New Cadillac",
+      "cover_artist": "The Clash",
+      "original_artist": null
+    },
+    {
+      "rank": 156,
+      "title": "Love Vigilantes",
+      "cover_artist": "Iron & Wine",
+      "original_artist": null
+    },
+    {
+      "rank": 157,
+      "title": "Blue Monday",
+      "cover_artist": "Orgy",
+      "original_artist": null
+    },
+    {
+      "rank": 158,
+      "title": "Common People",
+      "cover_artist": "William Shatner",
+      "original_artist": null
+    },
+    {
+      "rank": 159,
+      "title": "What A Wonderful World",
+      "cover_artist": "Joey Ramone",
+      "original_artist": null
+    },
+    {
+      "rank": 160,
+      "title": "La Bamba",
+      "cover_artist": "Los Lobos",
+      "original_artist": null
+    },
+    {
+      "rank": 161,
+      "title": "War Pigs",
+      "cover_artist": "Cake",
+      "original_artist": null
+    },
+    {
+      "rank": 162,
+      "title": "Raspberry Beret",
+      "cover_artist": "Hindu Love Gods",
+      "original_artist": null
+    },
+    {
+      "rank": 163,
+      "title": "Dirty Old Town",
+      "cover_artist": "The Pogues",
+      "original_artist": null
+    },
+    {
+      "rank": 164,
+      "title": "Try A Little Tenderness",
+      "cover_artist": "Otis Redding",
+      "original_artist": null
+    },
+    {
+      "rank": 165,
+      "title": "Make You Feel My Love",
+      "cover_artist": "Adele",
+      "original_artist": null
+    },
+    {
+      "rank": 166,
+      "title": "Hallelujah",
+      "cover_artist": "Rufus Wainwright",
+      "original_artist": null
+    },
+    {
+      "rank": 167,
+      "title": "Fire",
+      "cover_artist": "Pointer Sisters",
+      "original_artist": null
+    },
+    {
+      "rank": 168,
+      "title": "Breathless",
+      "cover_artist": "X",
+      "original_artist": null
+    },
+    {
+      "rank": 169,
+      "title": "Creep",
+      "cover_artist": "Tears For Fears",
+      "original_artist": null
+    },
+    {
+      "rank": 170,
+      "title": "Tiny Dancer",
+      "cover_artist": "Ben Folds",
+      "original_artist": null
+    },
+    {
+      "rank": 171,
+      "title": "Give My Love To Rose",
+      "cover_artist": "Bruce Springsteen",
+      "original_artist": null
+    },
+    {
+      "rank": 172,
+      "title": "Dead Souls",
+      "cover_artist": "Nine Inch Nails",
+      "original_artist": null
+    },
+    {
+      "rank": 173,
+      "title": "Friday I'm In Love",
+      "cover_artist": "Yo La Tengo",
+      "original_artist": null
+    },
+    {
+      "rank": 174,
+      "title": "Jersey Girl",
+      "cover_artist": "Bruce Springsteen",
+      "original_artist": null
+    },
+    {
+      "rank": 175,
+      "title": "Boyz-N-The-Hood",
+      "cover_artist": "Dynamite Hack",
+      "original_artist": null
+    },
+    {
+      "rank": 176,
+      "title": "Smells Like Teen Spirit",
+      "cover_artist": "Tori Amos",
+      "original_artist": null
+    },
+    {
+      "rank": 177,
+      "title": "City Of New Orleans",
+      "cover_artist": "Arlo Guthrie",
+      "original_artist": null
+    },
+    {
+      "rank": 178,
+      "title": "Romeo And Juliet",
+      "cover_artist": "Indigo Girls",
+      "original_artist": null
+    },
+    {
+      "rank": 179,
+      "title": "Scarlet Begonias",
+      "cover_artist": "Sublime",
+      "original_artist": null
+    },
+    {
+      "rank": 180,
+      "title": "Rich Girl",
+      "cover_artist": "Lake Street Dive",
+      "original_artist": null
+    },
+    {
+      "rank": 181,
+      "title": "A Message To You Rudy",
+      "cover_artist": "The Specials",
+      "original_artist": null
+    },
+    {
+      "rank": 182,
+      "title": "Got To Get You Into My Life",
+      "cover_artist": "Earth, Wind & Fire",
+      "original_artist": null
+    },
+    {
+      "rank": 183,
+      "title": "I'm Shakin'",
+      "cover_artist": "Jack White",
+      "original_artist": null
+    },
+    {
+      "rank": 184,
+      "title": "Teardrop",
+      "cover_artist": "José González",
+      "original_artist": null
+    },
+    {
+      "rank": 185,
+      "title": "I Know You Rider",
+      "cover_artist": "Grateful Dead",
+      "original_artist": null
+    },
+    {
+      "rank": 186,
+      "title": "Hard Sun",
+      "cover_artist": "Eddie Vedder",
+      "original_artist": null
+    },
+    {
+      "rank": 187,
+      "title": "Walking After Midnight",
+      "cover_artist": "Patsy Cline",
+      "original_artist": null
+    },
+    {
+      "rank": 188,
+      "title": "Gallows Pole",
+      "cover_artist": "Led Zeppelin",
+      "original_artist": null
+    },
+    {
+      "rank": 189,
+      "title": "Hey Ya",
+      "cover_artist": "Supersuckers",
+      "original_artist": null
+    },
+    {
+      "rank": 190,
+      "title": "It's All Over Now Baby Blue",
+      "cover_artist": "Them",
+      "original_artist": null
+    },
+    {
+      "rank": 191,
+      "title": "Happiness Is A Warm Gun",
+      "cover_artist": "The Breeders",
+      "original_artist": null
+    },
+    {
+      "rank": 192,
+      "title": "Big Ten Inch Record",
+      "cover_artist": "Aerosmith",
+      "original_artist": null
+    },
+    {
+      "rank": 193,
+      "title": "Love Rollercoaster",
+      "cover_artist": "Red Hot Chili Peppers",
+      "original_artist": null
+    },
+    {
+      "rank": 194,
+      "title": "MacArthur Park",
+      "cover_artist": "Donna Summer",
+      "original_artist": null
+    },
+    {
+      "rank": 195,
+      "title": "Get It On (Bang A Gong)",
+      "cover_artist": "Power Station",
+      "original_artist": null
+    },
+    {
+      "rank": 196,
+      "title": "Dancing Days",
+      "cover_artist": "Stone Temple Pilots",
+      "original_artist": null
+    },
+    {
+      "rank": 197,
+      "title": "I Say A Little Prayer",
+      "cover_artist": "Aretha Franklin",
+      "original_artist": null
+    },
+    {
+      "rank": 198,
+      "title": "Where Is My Mind",
+      "cover_artist": "Trampled By Turtles",
+      "original_artist": null
+    },
+    {
+      "rank": 199,
+      "title": "Satellite Of Love",
+      "cover_artist": "U2",
+      "original_artist": null
+    },
+    {
+      "rank": 200,
+      "title": "Winterlong",
+      "cover_artist": "Pixies",
+      "original_artist": null
+    },
+    {
+      "rank": 201,
+      "title": "Poor Poor Pitiful Me",
+      "cover_artist": "Linda Ronstadt",
+      "original_artist": null
+    },
+    {
+      "rank": 202,
+      "title": "Hot Rod Lincoln",
+      "cover_artist": "Commander Cody & His Lost Planet Airmen",
+      "original_artist": null
+    },
+    {
+      "rank": 203,
+      "title": "Give Back The Key To My Heart",
+      "cover_artist": "Uncle Tupelo",
+      "original_artist": null
+    },
+    {
+      "rank": 204,
+      "title": "I Can Help",
+      "cover_artist": "Charley Crockett",
+      "original_artist": null
+    },
+    {
+      "rank": 205,
+      "title": "Wildflowers",
+      "cover_artist": "The Wailin' Jennies",
+      "original_artist": null
+    },
+    {
+      "rank": 206,
+      "title": "Heart Of Gold",
+      "cover_artist": "Charles Bradley",
+      "original_artist": null
+    },
+    {
+      "rank": 207,
+      "title": "50 Ways To Leave Your Lover",
+      "cover_artist": "G. Love",
+      "original_artist": null
+    },
+    {
+      "rank": 208,
+      "title": "Hey Joe",
+      "cover_artist": "Jimi Hendrix",
+      "original_artist": null
+    },
+    {
+      "rank": 209,
+      "title": "Save It For Later",
+      "cover_artist": "Pete Townshend",
+      "original_artist": null
+    },
+    {
+      "rank": 210,
+      "title": "Sweet Old World",
+      "cover_artist": "Emmylou Harris",
+      "original_artist": null
+    },
+    {
+      "rank": 211,
+      "title": "This Must Be The Place (Naïve Melody)",
+      "cover_artist": "The Lumineers",
+      "original_artist": null
+    },
+    {
+      "rank": 212,
+      "title": "Immigrant Song",
+      "cover_artist": "Trent Reznor, Atticus Ross, Karen O",
+      "original_artist": null
+    },
+    {
+      "rank": 213,
+      "title": "Morning Dew",
+      "cover_artist": "Grateful Dead",
+      "original_artist": null
+    },
+    {
+      "rank": 214,
+      "title": "Handle With Care",
+      "cover_artist": "Jenny Lewis & The Watson Twins",
+      "original_artist": null
+    },
+    {
+      "rank": 215,
+      "title": "Love Hurts",
+      "cover_artist": "Nazareth",
+      "original_artist": null
+    },
+    {
+      "rank": 216,
+      "title": "My Way",
+      "cover_artist": "Sid Vicious",
+      "original_artist": null
+    },
+    {
+      "rank": 217,
+      "title": "One",
+      "cover_artist": "Johnny Cash",
+      "original_artist": null
+    },
+    {
+      "rank": 218,
+      "title": "Got The Time",
+      "cover_artist": "Anthrax",
+      "original_artist": null
+    },
+    {
+      "rank": 219,
+      "title": "Gloria",
+      "cover_artist": "Shadows Of Knight",
+      "original_artist": null
+    },
+    {
+      "rank": 220,
+      "title": "Orion",
+      "cover_artist": "Rodrigo y Gabriela",
+      "original_artist": null
+    },
+    {
+      "rank": 221,
+      "title": "Fast Car",
+      "cover_artist": "Luke Combs",
+      "original_artist": null
+    },
+    {
+      "rank": 222,
+      "title": "The Letter",
+      "cover_artist": "Joe Cocker",
+      "original_artist": null
+    },
+    {
+      "rank": 223,
+      "title": "Kiss",
+      "cover_artist": "Art Of Noise (feat. Tom Jones)",
+      "original_artist": null
+    },
+    {
+      "rank": 224,
+      "title": "Only Love Can Break Your Heart",
+      "cover_artist": "Saint Etienne",
+      "original_artist": null
+    },
+    {
+      "rank": 225,
+      "title": "Love Vigilantes",
+      "cover_artist": "Poi Dog Pondering",
+      "original_artist": null
+    },
+    {
+      "rank": 226,
+      "title": "Creep",
+      "cover_artist": "Brandi Carlile",
+      "original_artist": null
+    },
+    {
+      "rank": 227,
+      "title": "Wicked Game",
+      "cover_artist": "Oxeye Daisy",
+      "original_artist": null
+    },
+    {
+      "rank": 228,
+      "title": "I Fought The Law",
+      "cover_artist": "Dead Kennedys",
+      "original_artist": null
+    },
+    {
+      "rank": 229,
+      "title": "Whiskey In The Jar",
+      "cover_artist": "Thin Lizzy",
+      "original_artist": null
+    },
+    {
+      "rank": 230,
+      "title": "Ain't No Sunshine",
+      "cover_artist": "Wovenhand",
+      "original_artist": null
+    },
+    {
+      "rank": 231,
+      "title": "Hotel California",
+      "cover_artist": "Gipsy Kings",
+      "original_artist": null
+    },
+    {
+      "rank": 232,
+      "title": "Statesboro Blues",
+      "cover_artist": "Allman Brothers",
+      "original_artist": null
+    },
+    {
+      "rank": 233,
+      "title": "Let's Dance",
+      "cover_artist": "M.Ward",
+      "original_artist": null
+    },
+    {
+      "rank": 234,
+      "title": "Heart It Races",
+      "cover_artist": "Dr. Dog",
+      "original_artist": null
+    },
+    {
+      "rank": 235,
+      "title": "I Scare Myself",
+      "cover_artist": "Thomas Dolby",
+      "original_artist": null
+    },
+    {
+      "rank": 236,
+      "title": "Do Ya",
+      "cover_artist": "ELO",
+      "original_artist": null
+    },
+    {
+      "rank": 237,
+      "title": "All Apologies",
+      "cover_artist": "Sinead O'Connor",
+      "original_artist": null
+    },
+    {
+      "rank": 238,
+      "title": "Working In A Coal Mine",
+      "cover_artist": "Devo",
+      "original_artist": null
+    },
+    {
+      "rank": 239,
+      "title": "Real Wild Child (Wild One)",
+      "cover_artist": "Iggy Pop",
+      "original_artist": null
+    },
+    {
+      "rank": 240,
+      "title": "Loving Cup",
+      "cover_artist": "Phish",
+      "original_artist": null
+    },
+    {
+      "rank": 241,
+      "title": "Everybody's Got To Learn Sometime",
+      "cover_artist": "Beck",
+      "original_artist": null
+    },
+    {
+      "rank": 242,
+      "title": "Enjoy Yourself (It's Later Than You Think)",
+      "cover_artist": "The Specials",
+      "original_artist": null
+    },
+    {
+      "rank": 243,
+      "title": "99 Red Balloons",
+      "cover_artist": "7 Seconds",
+      "original_artist": null
+    },
+    {
+      "rank": 244,
+      "title": "Come Together",
+      "cover_artist": "Aerosmith",
+      "original_artist": null
+    },
+    {
+      "rank": 245,
+      "title": "I Think We're Alone Now",
+      "cover_artist": "Tiffany",
+      "original_artist": null
+    },
+    {
+      "rank": 246,
+      "title": "Borderline",
+      "cover_artist": "Flaming Lips",
+      "original_artist": null
+    },
+    {
+      "rank": 247,
+      "title": "Dancing Barefoot",
+      "cover_artist": "U2",
+      "original_artist": null
+    },
+    {
+      "rank": 248,
+      "title": "Mahna Mahna",
+      "cover_artist": "Cake",
+      "original_artist": null
+    },
+    {
+      "rank": 249,
+      "title": "They Don't Know",
+      "cover_artist": "Tracey Ullman",
+      "original_artist": null
+    },
+    {
+      "rank": 250,
+      "title": "Perfect Day",
+      "cover_artist": "Duran Duran",
+      "original_artist": null
+    },
+    {
+      "rank": 251,
+      "title": "Across The Universe",
+      "cover_artist": "Rufus Wainwright",
+      "original_artist": null
+    },
+    {
+      "rank": 252,
+      "title": "I Wan'na Be Like You",
+      "cover_artist": "Los Lobos",
+      "original_artist": null
+    },
+    {
+      "rank": 253,
+      "title": "Sugar",
+      "cover_artist": "Amythist Kiah",
+      "original_artist": null
+    },
+    {
+      "rank": 254,
+      "title": "Pinball Wizard",
+      "cover_artist": "Elton John",
+      "original_artist": null
+    },
+    {
+      "rank": 255,
+      "title": "Always On My Mind",
+      "cover_artist": "Willie Nelson",
+      "original_artist": null
+    },
+    {
+      "rank": 256,
+      "title": "Reason To Believe",
+      "cover_artist": "Beat Farmers",
+      "original_artist": null
+    },
+    {
+      "rank": 257,
+      "title": "Speed of the Sound of Loneliness",
+      "cover_artist": "Nanci Griffith",
+      "original_artist": null
+    },
+    {
+      "rank": 258,
+      "title": "Walk On By",
+      "cover_artist": "Isaac Hayes",
+      "original_artist": null
+    },
+    {
+      "rank": 259,
+      "title": "Hit 'Em Up Style",
+      "cover_artist": "Carolina Chocolate Drops",
+      "original_artist": null
+    },
+    {
+      "rank": 260,
+      "title": "Revolution Rock",
+      "cover_artist": "The Clash",
+      "original_artist": null
+    },
+    {
+      "rank": 261,
+      "title": "Comfortably Numb",
+      "cover_artist": "Scissor Sisters",
+      "original_artist": null
+    },
+    {
+      "rank": 262,
+      "title": "Take Me Home Country Roads",
+      "cover_artist": "Toots & The Maytals",
+      "original_artist": null
+    },
+    {
+      "rank": 263,
+      "title": "Voodoo Child (Slight Return)",
+      "cover_artist": "Stevie Ray Vaughan",
+      "original_artist": null
+    },
+    {
+      "rank": 264,
+      "title": "Somebody To Love",
+      "cover_artist": "Jefferson Airplane",
+      "original_artist": null
+    },
+    {
+      "rank": 265,
+      "title": "Don't Think Twice",
+      "cover_artist": "Mike Ness",
+      "original_artist": null
+    },
+    {
+      "rank": 266,
+      "title": "Hard Times",
+      "cover_artist": "Whyte Horses (feat. John Grant)",
+      "original_artist": null
+    },
+    {
+      "rank": 267,
+      "title": "Lithium",
+      "cover_artist": "Polyphonic Spree",
+      "original_artist": null
+    },
+    {
+      "rank": 268,
+      "title": "Can't Let Go",
+      "cover_artist": "Robert Plant & Alison Krauss",
+      "original_artist": null
+    },
+    {
+      "rank": 269,
+      "title": "Spit On A Stranger",
+      "cover_artist": "Nickel Creek",
+      "original_artist": null
+    },
+    {
+      "rank": 270,
+      "title": "Hound Dog",
+      "cover_artist": "Elvis Presley",
+      "original_artist": null
+    },
+    {
+      "rank": 271,
+      "title": "Cocaine",
+      "cover_artist": "Eric Clapton",
+      "original_artist": null
+    },
+    {
+      "rank": 272,
+      "title": "Do You Wanna Dance",
+      "cover_artist": "The Ramones",
+      "original_artist": null
+    },
+    {
+      "rank": 273,
+      "title": "Every 1's A Winner",
+      "cover_artist": "Ty Segall",
+      "original_artist": null
+    },
+    {
+      "rank": 274,
+      "title": "Three Is A Magic Number",
+      "cover_artist": "Blind Melon",
+      "original_artist": null
+    },
+    {
+      "rank": 275,
+      "title": "Creep",
+      "cover_artist": "The Pretenders",
+      "original_artist": null
+    },
+    {
+      "rank": 276,
+      "title": "Fast Car",
+      "cover_artist": "Black Pumas",
+      "original_artist": null
+    },
+    {
+      "rank": 277,
+      "title": "Til It Shines",
+      "cover_artist": "Lyle Lovett & Keb' Mo'",
+      "original_artist": null
+    },
+    {
+      "rank": 278,
+      "title": "Dead Flowers",
+      "cover_artist": "Townes Van Zandt",
+      "original_artist": null
+    },
+    {
+      "rank": 279,
+      "title": "Build Me Up Buttercup",
+      "cover_artist": "Frank Turner",
+      "original_artist": null
+    },
+    {
+      "rank": 280,
+      "title": "Jump",
+      "cover_artist": "Aztec Camera",
+      "original_artist": null
+    },
+    {
+      "rank": 281,
+      "title": "Free Fallin'",
+      "cover_artist": "John Mayer",
+      "original_artist": null
+    },
+    {
+      "rank": 282,
+      "title": "The First Time Ever I Saw Your Face",
+      "cover_artist": "Roberta Flack",
+      "original_artist": null
+    },
+    {
+      "rank": 283,
+      "title": "Walking On Broken Glass",
+      "cover_artist": "Lake Street Dive",
+      "original_artist": null
+    },
+    {
+      "rank": 284,
+      "title": "New Speedway Boogie",
+      "cover_artist": "Courtney Barnett",
+      "original_artist": null
+    },
+    {
+      "rank": 285,
+      "title": "The Freshman",
+      "cover_artist": "Mustard Plug",
+      "original_artist": null
+    },
+    {
+      "rank": 286,
+      "title": "First We Take Manhattan",
+      "cover_artist": "R.E.M.",
+      "original_artist": null
+    },
+    {
+      "rank": 287,
+      "title": "I Heard It Through The Grapevine",
+      "cover_artist": "The Slits",
+      "original_artist": null
+    },
+    {
+      "rank": 288,
+      "title": "Dancing In The Street",
+      "cover_artist": "David Bowie & Mick Jagger",
+      "original_artist": null
+    },
+    {
+      "rank": 289,
+      "title": "I'm A Believer",
+      "cover_artist": "Smash Mouth",
+      "original_artist": null
+    },
+    {
+      "rank": 290,
+      "title": "When You Were Mine",
+      "cover_artist": "Cyndi Lauper",
+      "original_artist": null
+    },
+    {
+      "rank": 291,
+      "title": "Come Up And See Me (Make Me Smile)",
+      "cover_artist": "Duran Duran",
+      "original_artist": null
+    },
+    {
+      "rank": 292,
+      "title": "Friday I'm In Love",
+      "cover_artist": "Phoebe Bridgers",
+      "original_artist": null
+    },
+    {
+      "rank": 293,
+      "title": "…Baby One More Time",
+      "cover_artist": "Travis",
+      "original_artist": null
+    },
+    {
+      "rank": 294,
+      "title": "I Feel For You",
+      "cover_artist": "Chaka Khan",
+      "original_artist": null
+    },
+    {
+      "rank": 295,
+      "title": "Somewhere Only We Know",
+      "cover_artist": "Lily Allen",
+      "original_artist": null
+    },
+    {
+      "rank": 296,
+      "title": "New York New York",
+      "cover_artist": "Cat Power",
+      "original_artist": null
+    },
+    {
+      "rank": 297,
+      "title": "Bruised Orange (Chain Of Sorrow)",
+      "cover_artist": "Justin Vernon",
+      "original_artist": null
+    },
+    {
+      "rank": 298,
+      "title": "Sweet Emotion",
+      "cover_artist": "Leo Kottke & Mike Gordon",
+      "original_artist": null
+    },
+    {
+      "rank": 299,
+      "title": "You Don't Get Me High Anymore",
+      "cover_artist": "Molly Tuttle (feat. Iron & Wine)",
+      "original_artist": null
+    },
+    {
+      "rank": 300,
+      "title": "20th Century Boy",
+      "cover_artist": "Placebo",
+      "original_artist": null
+    },
+    {
+      "rank": 301,
+      "title": "Heroes",
+      "cover_artist": "TV On The Radio",
+      "original_artist": null
+    },
+    {
+      "rank": 302,
+      "title": "Lovesong",
+      "cover_artist": "311",
+      "original_artist": null
+    },
+    {
+      "rank": 303,
+      "title": "A Little Respect",
+      "cover_artist": "JD McPherson",
+      "original_artist": null
+    },
+    {
+      "rank": 304,
+      "title": "Take On Me",
+      "cover_artist": "Reel Big Fish",
+      "original_artist": null
+    },
+    {
+      "rank": 305,
+      "title": "Secret Agent Man",
+      "cover_artist": "Devo",
+      "original_artist": null
+    },
+    {
+      "rank": 306,
+      "title": "Leaving On A Jet Plane",
+      "cover_artist": "Me First & The Gimme Gimmes",
+      "original_artist": null
+    },
+    {
+      "rank": 307,
+      "title": "Sugar Sugar",
+      "cover_artist": "Bob Marley & The Wailers",
+      "original_artist": null
+    },
+    {
+      "rank": 308,
+      "title": "It Must Be Love",
+      "cover_artist": "Madness",
+      "original_artist": null
+    },
+    {
+      "rank": 309,
+      "title": "Strangers",
+      "cover_artist": "Black Pumas (feat. Lucius)",
+      "original_artist": null
+    },
+    {
+      "rank": 310,
+      "title": "Back On The Chain Gang",
+      "cover_artist": "Morrissey",
+      "original_artist": null
+    },
+    {
+      "rank": 311,
+      "title": "Go Your Own Way",
+      "cover_artist": "The Cranberries",
+      "original_artist": null
+    },
+    {
+      "rank": 312,
+      "title": "Lovers In A Dangerous Time",
+      "cover_artist": "Barenaked Ladies",
+      "original_artist": null
+    },
+    {
+      "rank": 313,
+      "title": "A World So Full Of Love",
+      "cover_artist": "Shakey Graves",
+      "original_artist": null
+    },
+    {
+      "rank": 314,
+      "title": "Never Tear Us Apart",
+      "cover_artist": "St. Vincent & Beck",
+      "original_artist": null
+    },
+    {
+      "rank": 315,
+      "title": "The Boxer",
+      "cover_artist": "Jerry Douglas & Mumford & Sons",
+      "original_artist": null
+    },
+    {
+      "rank": 316,
+      "title": "(You Gotta Walk) Don't Look Back",
+      "cover_artist": "Peter Tosh & Mick Jagger",
+      "original_artist": null
+    },
+    {
+      "rank": 317,
+      "title": "The Tide Is High",
+      "cover_artist": "Blondie",
+      "original_artist": null
+    },
+    {
+      "rank": 318,
+      "title": "Love Sick",
+      "cover_artist": "Mariachi El Bronx",
+      "original_artist": null
+    },
+    {
+      "rank": 319,
+      "title": "Diamond Dogs",
+      "cover_artist": "Beck",
+      "original_artist": null
+    },
+    {
+      "rank": 320,
+      "title": "Step On",
+      "cover_artist": "Happy Mondays",
+      "original_artist": null
+    },
+    {
+      "rank": 321,
+      "title": "I Feel Love",
+      "cover_artist": "Bronski Beat & Marc Almond",
+      "original_artist": null
+    },
+    {
+      "rank": 322,
+      "title": "I'm Shakin'",
+      "cover_artist": "The Blasters",
+      "original_artist": null
+    },
+    {
+      "rank": 323,
+      "title": "Crazy Train",
+      "cover_artist": "The Railbenders",
+      "original_artist": null
+    },
+    {
+      "rank": 324,
+      "title": "Madman Across The Water",
+      "cover_artist": "Brandi Carlile",
+      "original_artist": null
+    },
+    {
+      "rank": 325,
+      "title": "It Ain't Me Babe",
+      "cover_artist": "The Turtles",
+      "original_artist": null
+    },
+    {
+      "rank": 326,
+      "title": "This Must Be The Place (Naïve Melody)",
+      "cover_artist": "Shawn Colvin",
+      "original_artist": null
+    },
+    {
+      "rank": 327,
+      "title": "Baltimore",
+      "cover_artist": "Nina Simone",
+      "original_artist": null
+    },
+    {
+      "rank": 328,
+      "title": "Meet Me In The City",
+      "cover_artist": "Black Keys",
+      "original_artist": null
+    },
+    {
+      "rank": 329,
+      "title": "Skinny Love",
+      "cover_artist": "Birdy",
+      "original_artist": null
+    },
+    {
+      "rank": 330,
+      "title": "I'm Goin' Down",
+      "cover_artist": "Vampire Weekend",
+      "original_artist": null
+    },
+    {
+      "rank": 331,
+      "title": "Another Girl Another Planet",
+      "cover_artist": "The Replacements",
+      "original_artist": null
+    },
+    {
+      "rank": 332,
+      "title": "(What's So Funny 'Bout) Peace, Love & Understanding",
+      "cover_artist": "Cheekface",
+      "original_artist": null
+    },
+    {
+      "rank": 333,
+      "title": "Hush",
+      "cover_artist": "Deep Purple",
+      "original_artist": null
+    },
+    {
+      "rank": 334,
+      "title": "Chinese Rock",
+      "cover_artist": "The Ramones",
+      "original_artist": null
+    },
+    {
+      "rank": 335,
+      "title": "Gloria",
+      "cover_artist": "Patti Smith",
+      "original_artist": null
+    },
+    {
+      "rank": 336,
+      "title": "War",
+      "cover_artist": "Edwin Starr",
+      "original_artist": null
+    },
+    {
+      "rank": 337,
+      "title": "Blister In The Sun",
+      "cover_artist": "Guster",
+      "original_artist": null
+    },
+    {
+      "rank": 338,
+      "title": "Route 66",
+      "cover_artist": "Depeche Mode",
+      "original_artist": null
+    },
+    {
+      "rank": 339,
+      "title": "Hounds Of Love",
+      "cover_artist": "The Futureheads",
+      "original_artist": null
+    },
+    {
+      "rank": 340,
+      "title": "Running On Empty",
+      "cover_artist": "Bob Schneider",
+      "original_artist": null
+    },
+    {
+      "rank": 341,
+      "title": "My Back Pages",
+      "cover_artist": "The Byrds",
+      "original_artist": null
+    },
+    {
+      "rank": 342,
+      "title": "Time/Breathe",
+      "cover_artist": "Greensky Bluegrass",
+      "original_artist": null
+    },
+    {
+      "rank": 343,
+      "title": "Crazy",
+      "cover_artist": "Patsy Cline",
+      "original_artist": null
+    },
+    {
+      "rank": 344,
+      "title": "Killing the Blues",
+      "cover_artist": "Robert Plant & Alison Krauss",
+      "original_artist": null
+    },
+    {
+      "rank": 345,
+      "title": "Orphan Girl",
+      "cover_artist": "Emmylou Harris",
+      "original_artist": null
+    },
+    {
+      "rank": 346,
+      "title": "Creep",
+      "cover_artist": "Post Modern Jukebox",
+      "original_artist": null
+    },
+    {
+      "rank": 347,
+      "title": "When You Say Nothing At All",
+      "cover_artist": "Alison Krauss",
+      "original_artist": null
+    },
+    {
+      "rank": 348,
+      "title": "I'm Free",
+      "cover_artist": "Soup Dragons",
+      "original_artist": null
+    },
+    {
+      "rank": 349,
+      "title": "Sad Songs And Waltzes",
+      "cover_artist": "Cake",
+      "original_artist": null
+    },
+    {
+      "rank": 350,
+      "title": "In Between Days",
+      "cover_artist": "Ben Folds",
+      "original_artist": null
+    },
+    {
+      "rank": 351,
+      "title": "Shadowplay",
+      "cover_artist": "The Killers",
+      "original_artist": null
+    },
+    {
+      "rank": 352,
+      "title": "Georgia",
+      "cover_artist": "Band Of Horses",
+      "original_artist": null
+    },
+    {
+      "rank": 353,
+      "title": "Feels Like Rain",
+      "cover_artist": "Buddy Guy",
+      "original_artist": null
+    },
+    {
+      "rank": 354,
+      "title": "Bankrobber",
+      "cover_artist": "Teke::Teke",
+      "original_artist": null
+    },
+    {
+      "rank": 355,
+      "title": "The Ship Song",
+      "cover_artist": "Concrete Blonde",
+      "original_artist": null
+    },
+    {
+      "rank": 356,
+      "title": "I Am Stretched On Your Grave",
+      "cover_artist": "Dead Can Dance",
+      "original_artist": null
+    },
+    {
+      "rank": 357,
+      "title": "I Got the Blues",
+      "cover_artist": "Joel Van Dijk & Aloe Blacc",
+      "original_artist": null
+    },
+    {
+      "rank": 358,
+      "title": "By the Time I Get to Phoenix",
+      "cover_artist": "Glen Campbell",
+      "original_artist": null
+    },
+    {
+      "rank": 359,
+      "title": "Everybody's Talkin'",
+      "cover_artist": "Nilsson",
+      "original_artist": null
+    },
+    {
+      "rank": 360,
+      "title": "Lovesong",
+      "cover_artist": "Adele",
+      "original_artist": null
+    },
+    {
+      "rank": 361,
+      "title": "Let My Love Open the Door",
+      "cover_artist": "Rogue Wave",
+      "original_artist": null
+    },
+    {
+      "rank": 362,
+      "title": "All This Useless Beauty",
+      "cover_artist": "Lush",
+      "original_artist": null
+    },
+    {
+      "rank": 363,
+      "title": "No More I Love You's",
+      "cover_artist": "Annie Lennox",
+      "original_artist": null
+    },
+    {
+      "rank": 364,
+      "title": "Whispering Your Name",
+      "cover_artist": "Alison Moyet",
+      "original_artist": null
+    },
+    {
+      "rank": 365,
+      "title": "All Mixed Up",
+      "cover_artist": "Red House Painters",
+      "original_artist": null
+    },
+    {
+      "rank": 366,
+      "title": "Night And Day",
+      "cover_artist": "U2",
+      "original_artist": null
+    },
+    {
+      "rank": 367,
+      "title": "In the Ghetto",
+      "cover_artist": "Nick Cave & The Bad Seeds",
+      "original_artist": null
+    },
+    {
+      "rank": 368,
+      "title": "Not Dark Yet",
+      "cover_artist": "Shelby Lynne & Allison Moorer",
+      "original_artist": null
+    },
+    {
+      "rank": 369,
+      "title": "The Story",
+      "cover_artist": "Dolly Parton",
+      "original_artist": null
+    },
+    {
+      "rank": 370,
+      "title": "King of the Road",
+      "cover_artist": "R.E.M.",
+      "original_artist": null
+    },
+    {
+      "rank": 371,
+      "title": "I Won't Back Down",
+      "cover_artist": "Johnny Cash",
+      "original_artist": null
+    },
+    {
+      "rank": 372,
+      "title": "Crying",
+      "cover_artist": "kd Lang",
+      "original_artist": null
+    },
+    {
+      "rank": 373,
+      "title": "Space Oddity",
+      "cover_artist": "Wilco",
+      "original_artist": null
+    },
+    {
+      "rank": 374,
+      "title": "Fade Into You",
+      "cover_artist": "J Mascis",
+      "original_artist": null
+    },
+    {
+      "rank": 375,
+      "title": "Ceremony",
+      "cover_artist": "Galaxie 500",
+      "original_artist": null
+    },
+    {
+      "rank": 376,
+      "title": "Rockin' in the Free World",
+      "cover_artist": "Pearl Jam",
+      "original_artist": null
+    },
+    {
+      "rank": 377,
+      "title": "Let It All Hang Out",
+      "cover_artist": "The Nails",
+      "original_artist": null
+    },
+    {
+      "rank": 378,
+      "title": "Wichita Lineman",
+      "cover_artist": "Black Pumas",
+      "original_artist": null
+    },
+    {
+      "rank": 379,
+      "title": "I Heard It Through The Grapevine",
+      "cover_artist": "Creedence Clearwater Revival",
+      "original_artist": null
+    },
+    {
+      "rank": 380,
+      "title": "I Know You Rider",
+      "cover_artist": "Greensky Bluegrass",
+      "original_artist": null
+    },
+    {
+      "rank": 381,
+      "title": "Suspicious Minds",
+      "cover_artist": "Dwight Yoakam",
+      "original_artist": null
+    },
+    {
+      "rank": 382,
+      "title": "Avalanche",
+      "cover_artist": "Aimee Mann",
+      "original_artist": null
+    },
+    {
+      "rank": 383,
+      "title": "Freedom Highway",
+      "cover_artist": "Rhiannon Giddens",
+      "original_artist": null
+    },
+    {
+      "rank": 384,
+      "title": "Piece Of My Heart",
+      "cover_artist": "Big Brother & The Holding Company",
+      "original_artist": null
+    },
+    {
+      "rank": 385,
+      "title": "Day Of The Lords",
+      "cover_artist": "16 Horsepower",
+      "original_artist": null
+    },
+    {
+      "rank": 386,
+      "title": "L.A. Freeway",
+      "cover_artist": "Guy Clark",
+      "original_artist": null
+    },
+    {
+      "rank": 387,
+      "title": "Louie Louie",
+      "cover_artist": "The Kingsmen",
+      "original_artist": null
+    },
+    {
+      "rank": 388,
+      "title": "Born In The USA",
+      "cover_artist": "Jason Isbell & Amanda Shires",
+      "original_artist": null
+    },
+    {
+      "rank": 389,
+      "title": "If Not For You",
+      "cover_artist": "George Harrison",
+      "original_artist": null
+    },
+    {
+      "rank": 390,
+      "title": "I Can Only Give You Everything",
+      "cover_artist": "Nick Waterhouse",
+      "original_artist": null
+    },
+    {
+      "rank": 391,
+      "title": "Five Years",
+      "cover_artist": "Arcade Fire",
+      "original_artist": null
+    },
+    {
+      "rank": 392,
+      "title": "Hello I Love You",
+      "cover_artist": "The Cure",
+      "original_artist": null
+    },
+    {
+      "rank": 393,
+      "title": "Guns Of Brixton",
+      "cover_artist": "Jimmy Cliff",
+      "original_artist": null
+    },
+    {
+      "rank": 394,
+      "title": "Hot Burrito #1",
+      "cover_artist": "Devotchka",
+      "original_artist": null
+    },
+    {
+      "rank": 395,
+      "title": "Touch Of Grey",
+      "cover_artist": "The War On Drugs",
+      "original_artist": null
+    },
+    {
+      "rank": 396,
+      "title": "Back In The High Life Again",
+      "cover_artist": "Warren Zevon",
+      "original_artist": null
+    },
+    {
+      "rank": 397,
+      "title": "The Scientist",
+      "cover_artist": "Wille Nelson",
+      "original_artist": null
+    },
+    {
+      "rank": 398,
+      "title": "Possum Kingdom",
+      "cover_artist": "Ryan Bingham",
+      "original_artist": null
+    },
+    {
+      "rank": 399,
+      "title": "Any Major Dude Will tell You",
+      "cover_artist": "Wilco",
+      "original_artist": null
+    },
+    {
+      "rank": 400,
+      "title": "The Road Goes On Forever",
+      "cover_artist": "The Highwaymen",
+      "original_artist": null
+    },
+    {
+      "rank": 401,
+      "title": "Dead Leaves And The Dirty Ground",
+      "cover_artist": "Chris Thile",
+      "original_artist": null
+    },
+    {
+      "rank": 402,
+      "title": "No Woman No Cry",
+      "cover_artist": "Fugees",
+      "original_artist": null
+    },
+    {
+      "rank": 403,
+      "title": "Something's Gotten Hold Of My Heart",
+      "cover_artist": "Nick Cave & The Bad Seeds",
+      "original_artist": null
+    },
+    {
+      "rank": 404,
+      "title": "No Depression",
+      "cover_artist": "Uncle Tupelo",
+      "original_artist": null
+    },
+    {
+      "rank": 405,
+      "title": "Desperado",
+      "cover_artist": "Linda Ronstadt",
+      "original_artist": null
+    },
+    {
+      "rank": 406,
+      "title": "At Last",
+      "cover_artist": "Etta James",
+      "original_artist": null
+    },
+    {
+      "rank": 407,
+      "title": "Black Hole Sun",
+      "cover_artist": "Brandi Carlile",
+      "original_artist": null
+    },
+    {
+      "rank": 408,
+      "title": "I See A Darkness",
+      "cover_artist": "Johnny Cash",
+      "original_artist": null
+    },
+    {
+      "rank": 409,
+      "title": "One",
+      "cover_artist": "Fontaines DC",
+      "original_artist": null
+    },
+    {
+      "rank": 410,
+      "title": "Shining Star",
+      "cover_artist": "Brittany Howard",
+      "original_artist": null
+    },
+    {
+      "rank": 411,
+      "title": "No One's Gonna Love You",
+      "cover_artist": "Cee-Lo Green",
+      "original_artist": null
+    },
+    {
+      "rank": 412,
+      "title": "The Whole Of The Moon",
+      "cover_artist": "Fiona Apple",
+      "original_artist": null
+    },
+    {
+      "rank": 413,
+      "title": "Sunshine Superman",
+      "cover_artist": "Dr. Lonnie Smith (feat. Iggy Pop)",
+      "original_artist": null
+    },
+    {
+      "rank": 414,
+      "title": "Pay Me My Money Down",
+      "cover_artist": "Bruce Springsteen",
+      "original_artist": null
+    },
+    {
+      "rank": 415,
+      "title": "I Wanna Holler (But The Town's Too Small)",
+      "cover_artist": "Detroit Cobras",
+      "original_artist": null
+    },
+    {
+      "rank": 416,
+      "title": "Nick Of Time",
+      "cover_artist": "Lake Street Dive",
+      "original_artist": null
+    },
+    {
+      "rank": 417,
+      "title": "This Must Be The Place (Naïve Melody)",
+      "cover_artist": "Iron & Wine",
+      "original_artist": null
+    },
+    {
+      "rank": 418,
+      "title": "Paradise",
+      "cover_artist": "Sturgill Simpson",
+      "original_artist": null
+    },
+    {
+      "rank": 419,
+      "title": "Wrote A Song For Everyone",
+      "cover_artist": "Mavis Staples",
+      "original_artist": null
+    },
+    {
+      "rank": 420,
+      "title": "O' Be Joyful",
+      "cover_artist": "Lone Bellow",
+      "original_artist": null
+    },
+    {
+      "rank": 421,
+      "title": "I'm Not There",
+      "cover_artist": "Sonic Youth",
+      "original_artist": null
+    },
+    {
+      "rank": 422,
+      "title": "Lovely Day",
+      "cover_artist": "Portugal. The Man",
+      "original_artist": null
+    },
+    {
+      "rank": 423,
+      "title": "Say My Name",
+      "cover_artist": "Hozier",
+      "original_artist": null
+    },
+    {
+      "rank": 424,
+      "title": "The Book Of Love",
+      "cover_artist": "Peter Gabriel",
+      "original_artist": null
+    },
+    {
+      "rank": 425,
+      "title": "Most Of The Time",
+      "cover_artist": "Luna",
+      "original_artist": null
+    },
+    {
+      "rank": 426,
+      "title": "Open All Night",
+      "cover_artist": "Son Volt",
+      "original_artist": null
+    },
+    {
+      "rank": 427,
+      "title": "Just The Two Of Us",
+      "cover_artist": "Rhiannon Giddens (feat. Bill Withers)",
+      "original_artist": null
+    },
+    {
+      "rank": 428,
+      "title": "Ballad Of A Thin Man",
+      "cover_artist": "Cat Power",
+      "original_artist": null
+    },
+    {
+      "rank": 429,
+      "title": "Owner Of A Lonely Heart",
+      "cover_artist": "Grizzly Bear",
+      "original_artist": null
+    },
+    {
+      "rank": 430,
+      "title": "Nobody Does It Better",
+      "cover_artist": "Richard \"Groove\" Holmes",
+      "original_artist": null
+    },
+    {
+      "rank": 431,
+      "title": "Mercy Mercy Me (The Ecology)",
+      "cover_artist": "Devon Gilfillian",
+      "original_artist": null
+    },
+    {
+      "rank": 432,
+      "title": "A Good Year For The Roses",
+      "cover_artist": "Elvis Costello",
+      "original_artist": null
+    },
+    {
+      "rank": 433,
+      "title": "I'm In Love With A Girl",
+      "cover_artist": "Lucero",
+      "original_artist": null
+    },
+    {
+      "rank": 434,
+      "title": "If Not For You",
+      "cover_artist": "Olivia Newton-John",
+      "original_artist": null
+    },
+    {
+      "rank": 435,
+      "title": "Big Boss Man",
+      "cover_artist": "Whitehorse",
+      "original_artist": null
+    },
+    {
+      "rank": 436,
+      "title": "Tighten Up",
+      "cover_artist": "The Watson Twins",
+      "original_artist": null
+    },
+    {
+      "rank": 437,
+      "title": "Positively 4th Street",
+      "cover_artist": "Paul Westerberg",
+      "original_artist": null
+    },
+    {
+      "rank": 438,
+      "title": "Oliver's Army",
+      "cover_artist": "Blur",
+      "original_artist": null
+    },
+    {
+      "rank": 439,
+      "title": "Needle In The Hay",
+      "cover_artist": "Murder By Death",
+      "original_artist": null
+    },
+    {
+      "rank": 440,
+      "title": "Johnny Too Bad",
+      "cover_artist": "Taj Mahal",
+      "original_artist": null
+    },
+    {
+      "rank": 441,
+      "title": "Long Shadow",
+      "cover_artist": "Eddie Vedder",
+      "original_artist": null
+    },
+    {
+      "rank": 442,
+      "title": "Blindness",
+      "cover_artist": "Grandaddy",
+      "original_artist": null
+    },
+    {
+      "rank": 443,
+      "title": "My Sister's Tiny Hands",
+      "cover_artist": "Andrew Bird",
+      "original_artist": null
+    },
+    {
+      "rank": 444,
+      "title": "Metal Firecracker",
+      "cover_artist": "Tallest Man On Earth",
+      "original_artist": null
+    },
+    {
+      "rank": 445,
+      "title": "Lust For Life",
+      "cover_artist": "JD McPherson",
+      "original_artist": null
+    },
+    {
+      "rank": 446,
+      "title": "Mack The Knife",
+      "cover_artist": "Nick Cave & The Bad Seeds",
+      "original_artist": null
+    },
+    {
+      "rank": 447,
+      "title": "Don't Let Me Be Misunderstood",
+      "cover_artist": "The Animals",
+      "original_artist": null
+    },
+    {
+      "rank": 448,
+      "title": "The In Crowd",
+      "cover_artist": "Bryan Ferry",
+      "original_artist": null
+    },
+    {
+      "rank": 449,
+      "title": "Goodbye Yellow Brick Road",
+      "cover_artist": "Yola",
+      "original_artist": null
+    },
+    {
+      "rank": 450,
+      "title": "Pink Rabbits",
+      "cover_artist": "Lone Bellow",
+      "original_artist": null
+    },
+    {
+      "rank": 451,
+      "title": "The Chain",
+      "cover_artist": "The Highwomen",
+      "original_artist": null
+    },
+    {
+      "rank": 452,
+      "title": "Evil Ways",
+      "cover_artist": "Santana",
+      "original_artist": null
+    },
+    {
+      "rank": 453,
+      "title": "Rock Island Line",
+      "cover_artist": "Fishbone",
+      "original_artist": null
+    },
+    {
+      "rank": 454,
+      "title": "In The Air Tonight",
+      "cover_artist": "Lucy Dacus",
+      "original_artist": null
+    },
+    {
+      "rank": 455,
+      "title": "Borderline",
+      "cover_artist": "Amanda Shires",
+      "original_artist": null
+    },
+    {
+      "rank": 456,
+      "title": "Needles And Pins",
+      "cover_artist": "The Ramones",
+      "original_artist": null
+    },
+    {
+      "rank": 457,
+      "title": "99 Red Balloons",
+      "cover_artist": "Goldfinger",
+      "original_artist": null
+    },
+    {
+      "rank": 458,
+      "title": "Slip Inside This House",
+      "cover_artist": "Primal Scream",
+      "original_artist": null
+    },
+    {
+      "rank": 459,
+      "title": "Madness",
+      "cover_artist": "Madness",
+      "original_artist": null
+    },
+    {
+      "rank": 460,
+      "title": "Young Americans",
+      "cover_artist": "The Cure",
+      "original_artist": null
+    },
+    {
+      "rank": 461,
+      "title": "Never Let Me Down Again",
+      "cover_artist": "Smashing Pumpkins",
+      "original_artist": null
+    },
+    {
+      "rank": 462,
+      "title": "Like A Hurricane",
+      "cover_artist": "The Mission",
+      "original_artist": null
+    },
+    {
+      "rank": 463,
+      "title": "Sweet Talkin' Woman",
+      "cover_artist": "Five Iron Frenzy",
+      "original_artist": null
+    },
+    {
+      "rank": 464,
+      "title": "I'm A King Bee",
+      "cover_artist": "Pink Floyd",
+      "original_artist": null
+    },
+    {
+      "rank": 465,
+      "title": "Gold Dust Woman",
+      "cover_artist": "Hole",
+      "original_artist": null
+    },
+    {
+      "rank": 466,
+      "title": "Smiling Faces Sometimes",
+      "cover_artist": "The Undisputed Truth",
+      "original_artist": null
+    },
+    {
+      "rank": 467,
+      "title": "Don't Dream It's Over",
+      "cover_artist": "The Head & The Heart",
+      "original_artist": null
+    },
+    {
+      "rank": 468,
+      "title": "Without You",
+      "cover_artist": "Nilsson",
+      "original_artist": null
+    },
+    {
+      "rank": 469,
+      "title": "Papa Was A Rodeo",
+      "cover_artist": "Kelly Hogan & The Pine Valley Cosmonauts",
+      "original_artist": null
+    },
+    {
+      "rank": 470,
+      "title": "FM",
+      "cover_artist": "Mountain Goats",
+      "original_artist": null
+    },
+    {
+      "rank": 471,
+      "title": "Memphis",
+      "cover_artist": "John Cale",
+      "original_artist": null
+    },
+    {
+      "rank": 472,
+      "title": "Sound And Vision",
+      "cover_artist": "Franz Ferdinand",
+      "original_artist": null
+    },
+    {
+      "rank": 473,
+      "title": "Peter Gunn",
+      "cover_artist": "Art Of Noise (feat. Duane Eddy)",
+      "original_artist": null
+    },
+    {
+      "rank": 474,
+      "title": "Going Down To Liverpool",
+      "cover_artist": "The Bangles",
+      "original_artist": null
+    },
+    {
+      "rank": 475,
+      "title": "Kiss",
+      "cover_artist": "Joan As Police Woman",
+      "original_artist": null
+    },
+    {
+      "rank": 476,
+      "title": "Kangaroo",
+      "cover_artist": "This Mortal Coil",
+      "original_artist": null
+    },
+    {
+      "rank": 477,
+      "title": "You Don't Own Me",
+      "cover_artist": "Blow Monkeys",
+      "original_artist": null
+    },
+    {
+      "rank": 478,
+      "title": "Sugar Town",
+      "cover_artist": "Southern Culture On The Skids",
+      "original_artist": null
+    },
+    {
+      "rank": 479,
+      "title": "Have Love Will Travel",
+      "cover_artist": "Black Keys",
+      "original_artist": null
+    },
+    {
+      "rank": 480,
+      "title": "Ever Fallen In Love (With Someone You Shouldn't Have)",
+      "cover_artist": "Yonder Mountain String Band",
+      "original_artist": null
+    },
+    {
+      "rank": 481,
+      "title": "One",
+      "cover_artist": "Warren Haynes",
+      "original_artist": null
+    },
+    {
+      "rank": 482,
+      "title": "Ain't Too Proud To Beg",
+      "cover_artist": "Rolling Stones",
+      "original_artist": null
+    },
+    {
+      "rank": 483,
+      "title": "Is Anybody Goin' To San Antone (Live)",
+      "cover_artist": "Son Volt",
+      "original_artist": null
+    },
+    {
+      "rank": 484,
+      "title": "Thank You (Falettinme Be Mice Elf Agin)",
+      "cover_artist": "Soundgarden",
+      "original_artist": null
+    },
+    {
+      "rank": 485,
+      "title": "That 70's Song (In The Street)",
+      "cover_artist": "Cheap Trick",
+      "original_artist": null
+    },
+    {
+      "rank": 486,
+      "title": "Viva Las Vegas",
+      "cover_artist": "Dead Kennedys",
+      "original_artist": null
+    },
+    {
+      "rank": 487,
+      "title": "I Got Loaded",
+      "cover_artist": "Los Lobos",
+      "original_artist": null
+    },
+    {
+      "rank": 488,
+      "title": "Corona",
+      "cover_artist": "Calexico",
+      "original_artist": null
+    },
+    {
+      "rank": 489,
+      "title": "She's Not There",
+      "cover_artist": "Nick Cave & Neko Case",
+      "original_artist": null
+    },
+    {
+      "rank": 490,
+      "title": "Fake Plastic Trees",
+      "cover_artist": "Trampled By Turtles",
+      "original_artist": null
+    },
+    {
+      "rank": 491,
+      "title": "Hackensack",
+      "cover_artist": "Local H",
+      "original_artist": null
+    },
+    {
+      "rank": 492,
+      "title": "Fearless",
+      "cover_artist": "Low",
+      "original_artist": null
+    },
+    {
+      "rank": 493,
+      "title": "Shankill Butchers",
+      "cover_artist": "Sarah Jarosz",
+      "original_artist": null
+    },
+    {
+      "rank": 494,
+      "title": "I've Been Everywhere",
+      "cover_artist": "Johnny Cash",
+      "original_artist": null
+    },
+    {
+      "rank": 495,
+      "title": "Take Me Home Country Roads",
+      "cover_artist": "Whitney & Waxahatchee",
+      "original_artist": null
+    },
+    {
+      "rank": 496,
+      "title": "The Mighty Quinn",
+      "cover_artist": "Manfred Mann's Earth Band",
+      "original_artist": null
+    },
+    {
+      "rank": 497,
+      "title": "You Never Even Called Me By My Name",
+      "cover_artist": "David Allen Coe",
+      "original_artist": null
+    },
+    {
+      "rank": 498,
+      "title": "Live For Today",
+      "cover_artist": "Lords Of The New Church",
+      "original_artist": null
+    },
+    {
+      "rank": 499,
+      "title": "Change The Locks",
+      "cover_artist": "Tom Petty & The Heartbreakers",
+      "original_artist": null
+    },
+    {
+      "rank": 500,
+      "title": "Every Day Is Like Sunday",
+      "cover_artist": "The Pretenders",
+      "original_artist": null
+    },
+    {
+      "rank": 501,
+      "title": "Smalltown Boy",
+      "cover_artist": "José González",
+      "original_artist": null
+    },
+    {
+      "rank": 502,
+      "title": "Fire In Cairo",
+      "cover_artist": "Luna",
+      "original_artist": null
+    },
+    {
+      "rank": 503,
+      "title": "Dance Me To The End Of Love",
+      "cover_artist": "Madeleine Peyroux",
+      "original_artist": null
+    },
+    {
+      "rank": 504,
+      "title": "I Want You Back",
+      "cover_artist": "Lake Street Dive",
+      "original_artist": null
+    },
+    {
+      "rank": 505,
+      "title": "Thirteen",
+      "cover_artist": "Bedouine, Hurray For The Riff Raff & Waxahachee",
+      "original_artist": null
+    },
+    {
+      "rank": 506,
+      "title": "Coalminers",
+      "cover_artist": "Uncle Tupelo",
+      "original_artist": null
+    },
+    {
+      "rank": 507,
+      "title": "Save It For Later",
+      "cover_artist": "Harvey Danger",
+      "original_artist": null
+    },
+    {
+      "rank": 508,
+      "title": "Oops! I Did It Again",
+      "cover_artist": "Richard Thompson",
+      "original_artist": null
+    },
+    {
+      "rank": 509,
+      "title": "So You Say You Lost Your Baby",
+      "cover_artist": "Death In Vegas",
+      "original_artist": null
+    },
+    {
+      "rank": 510,
+      "title": "There She Goes",
+      "cover_artist": "Boo Radleys",
+      "original_artist": null
+    },
+    {
+      "rank": 511,
+      "title": "Shake Some Action",
+      "cover_artist": "Chuck Prophet",
+      "original_artist": null
+    },
+    {
+      "rank": 512,
+      "title": "That's When I Reach For My Revolver",
+      "cover_artist": "Moby",
+      "original_artist": null
+    },
+    {
+      "rank": 513,
+      "title": "Sam Stone",
+      "cover_artist": "Swamp Dogg",
+      "original_artist": null
+    },
+    {
+      "rank": 514,
+      "title": "Rich Kid Blues",
+      "cover_artist": "The Raconteurs",
+      "original_artist": null
+    },
+    {
+      "rank": 515,
+      "title": "You Know I'm No Good",
+      "cover_artist": "Arctic Monkeys",
+      "original_artist": null
+    },
+    {
+      "rank": 516,
+      "title": "I Dreamed I Saw St. Augustine",
+      "cover_artist": "Vic Chesnutt",
+      "original_artist": null
+    },
+    {
+      "rank": 517,
+      "title": "Goo Goo Muck",
+      "cover_artist": "The Cramps",
+      "original_artist": null
+    },
+    {
+      "rank": 518,
+      "title": "Highway 61 Revisited",
+      "cover_artist": "PJ Harvey",
+      "original_artist": null
+    },
+    {
+      "rank": 519,
+      "title": "Secret Agent Man",
+      "cover_artist": "The Toasters",
+      "original_artist": null
+    },
+    {
+      "rank": 520,
+      "title": "Black Betty",
+      "cover_artist": "Ram Jam",
+      "original_artist": null
+    },
+    {
+      "rank": 521,
+      "title": "Strychnine",
+      "cover_artist": "The Fuzztones",
+      "original_artist": null
+    },
+    {
+      "rank": 522,
+      "title": "The Seed 2.0",
+      "cover_artist": "The Roots (feat. Cody Chesnutt)",
+      "original_artist": null
+    },
+    {
+      "rank": 523,
+      "title": "Dazed And Confused",
+      "cover_artist": "Led Zeppelin",
+      "original_artist": null
+    },
+    {
+      "rank": 524,
+      "title": "Creep",
+      "cover_artist": "Prince",
+      "original_artist": null
+    },
+    {
+      "rank": 525,
+      "title": "Feeling Good",
+      "cover_artist": "Muse",
+      "original_artist": null
+    },
+    {
+      "rank": 526,
+      "title": "So You Want To Be A Rock And Roll Star",
+      "cover_artist": "Patti Smith",
+      "original_artist": null
+    },
+    {
+      "rank": 527,
+      "title": "Maggie's Farm",
+      "cover_artist": "Rage Against The Machine",
+      "original_artist": null
+    },
+    {
+      "rank": 528,
+      "title": "I Am A Man Of Constant Sorrow",
+      "cover_artist": "Blitzen Trapper",
+      "original_artist": null
+    },
+    {
+      "rank": 529,
+      "title": "A Lifetime To Find",
+      "cover_artist": "Trampled By Turtles",
+      "original_artist": null
+    },
+    {
+      "rank": 530,
+      "title": "Thirteen",
+      "cover_artist": "Wilco",
+      "original_artist": null
+    },
+    {
+      "rank": 531,
+      "title": "It Aint What You Do, It's The Way That You Do It",
+      "cover_artist": "Bananarama & Fun Boy Three",
+      "original_artist": null
+    },
+    {
+      "rank": 532,
+      "title": "Heavy Makes You Happy (Sha-Na-Boom-Boom)",
+      "cover_artist": "The Staple Singers",
+      "original_artist": null
+    },
+    {
+      "rank": 533,
+      "title": "That's All For Everyone",
+      "cover_artist": "Tame Impala",
+      "original_artist": null
+    },
+    {
+      "rank": 534,
+      "title": "Axis (Bold As Love)",
+      "cover_artist": "The Pretenders",
+      "original_artist": null
+    },
+    {
+      "rank": 535,
+      "title": "Knives Out",
+      "cover_artist": "Flaming Lips",
+      "original_artist": null
+    },
+    {
+      "rank": 536,
+      "title": "It's Hard To Be A Saint In The City",
+      "cover_artist": "David Bowie",
+      "original_artist": null
+    },
+    {
+      "rank": 537,
+      "title": "Stolen Car",
+      "cover_artist": "Patty Griffin",
+      "original_artist": null
+    },
+    {
+      "rank": 538,
+      "title": "Brown's Ferry Blues",
+      "cover_artist": "Tony Trischka & Billy Strings",
+      "original_artist": null
+    },
+    {
+      "rank": 539,
+      "title": "Graceland",
+      "cover_artist": "Justin Townes Earle",
+      "original_artist": null
+    },
+    {
+      "rank": 540,
+      "title": "Somebody Tryin' To HooDoo Me",
+      "cover_artist": "The Nude Party",
+      "original_artist": null
+    },
+    {
+      "rank": 541,
+      "title": "Road To Nowhere",
+      "cover_artist": "Murder By Death",
+      "original_artist": null
+    },
+    {
+      "rank": 542,
+      "title": "Hot Hot Hot",
+      "cover_artist": "Buster Poindexter",
+      "original_artist": null
+    },
+    {
+      "rank": 543,
+      "title": "Her Eyes Are A Blue Million Miles",
+      "cover_artist": "Black Keys",
+      "original_artist": null
+    },
+    {
+      "rank": 544,
+      "title": "Fade Into You",
+      "cover_artist": "Valerie June",
+      "original_artist": null
+    },
+    {
+      "rank": 545,
+      "title": "Everytime You Go Away",
+      "cover_artist": "Paul Young",
+      "original_artist": null
+    },
+    {
+      "rank": 546,
+      "title": "Soak Up The Sun",
+      "cover_artist": "Soccer Mommy",
+      "original_artist": null
+    },
+    {
+      "rank": 547,
+      "title": "Dear God",
+      "cover_artist": "Sarah McLachlan",
+      "original_artist": null
+    },
+    {
+      "rank": 548,
+      "title": "When Doves Cry",
+      "cover_artist": "Patti Smith",
+      "original_artist": null
+    },
+    {
+      "rank": 549,
+      "title": "Will The Wolf Survive?",
+      "cover_artist": "Waylon Jennings",
+      "original_artist": null
+    },
+    {
+      "rank": 550,
+      "title": "Children Of The Revolution",
+      "cover_artist": "Violent Femmes",
+      "original_artist": null
+    },
+    {
+      "rank": 551,
+      "title": "Everything Is Broken",
+      "cover_artist": "RL Burnside",
+      "original_artist": null
+    },
+    {
+      "rank": 552,
+      "title": "You're A Big Girl Now",
+      "cover_artist": "My Morning Jacket",
+      "original_artist": null
+    },
+    {
+      "rank": 553,
+      "title": "Rose Rouge",
+      "cover_artist": "Jorja Smith",
+      "original_artist": null
+    },
+    {
+      "rank": 554,
+      "title": "Try A Little Tenderness",
+      "cover_artist": "The Commitments",
+      "original_artist": null
+    },
+    {
+      "rank": 555,
+      "title": "Whatta Man",
+      "cover_artist": "Salt N Pepa",
+      "original_artist": null
+    },
+    {
+      "rank": 556,
+      "title": "Here Come The Girls",
+      "cover_artist": "Trombone Shorty",
+      "original_artist": null
+    },
+    {
+      "rank": 557,
+      "title": "Stand By Your Man",
+      "cover_artist": "Lyle Lovett",
+      "original_artist": null
+    },
+    {
+      "rank": 558,
+      "title": "Don't Fence Me In",
+      "cover_artist": "David Byrne",
+      "original_artist": null
+    },
+    {
+      "rank": 559,
+      "title": "I Believe (When I Fall In Love It Will Be Forever)",
+      "cover_artist": "Father John Misty",
+      "original_artist": null
+    },
+    {
+      "rank": 560,
+      "title": "Don't Play That Song (You Lied)",
+      "cover_artist": "Aretha Franklin",
+      "original_artist": null
+    },
+    {
+      "rank": 561,
+      "title": "Yes We Can Can",
+      "cover_artist": "Allen Toussaint",
+      "original_artist": null
+    },
+    {
+      "rank": 562,
+      "title": "Careless Whisper",
+      "cover_artist": "Delvon Lamarr Organ Trio",
+      "original_artist": null
+    },
+    {
+      "rank": 563,
+      "title": "Dream Baby Dream",
+      "cover_artist": "Bruce Springsteen",
+      "original_artist": null
+    },
+    {
+      "rank": 564,
+      "title": "Ring Of Fire",
+      "cover_artist": "Johnny Cash",
+      "original_artist": null
+    },
+    {
+      "rank": 565,
+      "title": "Clampdown",
+      "cover_artist": "The National",
+      "original_artist": null
+    },
+    {
+      "rank": 566,
+      "title": "Sister Europe",
+      "cover_artist": "Foo Fighters",
+      "original_artist": null
+    },
+    {
+      "rank": 567,
+      "title": "Miss Otis Regrets/Just One Of Those Things",
+      "cover_artist": "Kirsty MacColl & The Pogues",
+      "original_artist": null
+    },
+    {
+      "rank": 568,
+      "title": "One Of Us Cannot Be Wrong",
+      "cover_artist": "Gregory Alan Isakov",
+      "original_artist": null
+    },
+    {
+      "rank": 569,
+      "title": "Dancing In The Dark",
+      "cover_artist": "Deer Tick",
+      "original_artist": null
+    },
+    {
+      "rank": 570,
+      "title": "Blue Moon Revisited",
+      "cover_artist": "Cowboy Junkies",
+      "original_artist": null
+    },
+    {
+      "rank": 571,
+      "title": "Miserlou",
+      "cover_artist": "Dick Dale & The Del-Tones",
+      "original_artist": null
+    },
+    {
+      "rank": 572,
+      "title": "Spirit In The Sky",
+      "cover_artist": "Bauhaus",
+      "original_artist": null
+    },
+    {
+      "rank": 573,
+      "title": "Tainted Love",
+      "cover_artist": "Imelda May",
+      "original_artist": null
+    },
+    {
+      "rank": 574,
+      "title": "Funnel Of Love",
+      "cover_artist": "Southern Culture On The Skids",
+      "original_artist": null
+    },
+    {
+      "rank": 575,
+      "title": "Wrong Em Boyo",
+      "cover_artist": "The Clash",
+      "original_artist": null
+    },
+    {
+      "rank": 576,
+      "title": "Red Rubber Ball",
+      "cover_artist": "Streetlight Manifesto",
+      "original_artist": null
+    },
+    {
+      "rank": 577,
+      "title": "This Wheel's On Fire",
+      "cover_artist": "Siouxsie & The Banshees",
+      "original_artist": null
+    },
+    {
+      "rank": 578,
+      "title": "First Cut Is Deepest",
+      "cover_artist": "Sheryl Crow",
+      "original_artist": null
+    },
+    {
+      "rank": 579,
+      "title": "Buckets Of Rain",
+      "cover_artist": "Neko Case",
+      "original_artist": null
+    },
+    {
+      "rank": 580,
+      "title": "Famous Blue Raincoat",
+      "cover_artist": "Nathaniel Rateliff",
+      "original_artist": null
+    },
+    {
+      "rank": 581,
+      "title": "The Only Living Boy In New York",
+      "cover_artist": "Buffalo Tom",
+      "original_artist": null
+    },
+    {
+      "rank": 582,
+      "title": "Blue",
+      "cover_artist": "First Aid Kit",
+      "original_artist": null
+    },
+    {
+      "rank": 583,
+      "title": "Drivin' Nails In My Coffin",
+      "cover_artist": "Beck & Willie Nelson",
+      "original_artist": null
+    },
+    {
+      "rank": 584,
+      "title": "The Dark Don't Hide It",
+      "cover_artist": "Kevin Morby & Waxahatchee",
+      "original_artist": null
+    },
+    {
+      "rank": 585,
+      "title": "Say It Ain't So",
+      "cover_artist": "Japanese Breakfast",
+      "original_artist": null
+    },
+    {
+      "rank": 586,
+      "title": "Baker Street",
+      "cover_artist": "Foo Fighters",
+      "original_artist": null
+    },
+    {
+      "rank": 587,
+      "title": "Agent Double O Soul",
+      "cover_artist": "The Untouchables",
+      "original_artist": null
+    },
+    {
+      "rank": 588,
+      "title": "(We Don't Need This) Facist Groove Thing",
+      "cover_artist": "LCD Soundsystem",
+      "original_artist": null
+    },
+    {
+      "rank": 589,
+      "title": "David Watts",
+      "cover_artist": "The Jam",
+      "original_artist": null
+    },
+    {
+      "rank": 590,
+      "title": "Look At What The Light Did Now",
+      "cover_artist": "Matthew E. White & Flo Morrissey",
+      "original_artist": null
+    },
+    {
+      "rank": 591,
+      "title": "Ruby Soho",
+      "cover_artist": "Jimmy Cliff",
+      "original_artist": null
+    },
+    {
+      "rank": 592,
+      "title": "Miss Amanda Jones",
+      "cover_artist": "March Violets",
+      "original_artist": null
+    },
+    {
+      "rank": 593,
+      "title": "Sweet Caroline",
+      "cover_artist": "Me First & The Gimme Gimmes",
+      "original_artist": null
+    },
+    {
+      "rank": 594,
+      "title": "Dirty Water",
+      "cover_artist": "The Inmates",
+      "original_artist": null
+    },
+    {
+      "rank": 595,
+      "title": "Love Buzz",
+      "cover_artist": "Nirvana",
+      "original_artist": null
+    },
+    {
+      "rank": 596,
+      "title": "Teenage Dirtbag",
+      "cover_artist": "Phoebe Bridgers",
+      "original_artist": null
+    },
+    {
+      "rank": 597,
+      "title": "Don't Go",
+      "cover_artist": "Sleaford Mods",
+      "original_artist": null
+    },
+    {
+      "rank": 598,
+      "title": "Man On The Moon",
+      "cover_artist": "Sugar",
+      "original_artist": null
+    },
+    {
+      "rank": 599,
+      "title": "Birthday",
+      "cover_artist": "M. Ward",
+      "original_artist": null
+    },
+    {
+      "rank": 600,
+      "title": "Born This Way",
+      "cover_artist": "Orville Peck",
+      "original_artist": null
+    },
+    {
+      "rank": 601,
+      "title": "Cold Irons Bound",
+      "cover_artist": "Tom Verlaine & The Million Dollar Bashers",
+      "original_artist": null
+    },
+    {
+      "rank": 602,
+      "title": "Can't You Hear Me Knocking",
+      "cover_artist": "Marcus King",
+      "original_artist": null
+    },
+    {
+      "rank": 603,
+      "title": "Feel Good Inc.",
+      "cover_artist": "Little Simz",
+      "original_artist": null
+    },
+    {
+      "rank": 604,
+      "title": "Back On The Train",
+      "cover_artist": "Cary Morin",
+      "original_artist": null
+    },
+    {
+      "rank": 605,
+      "title": "Night People",
+      "cover_artist": "Stanton Moore",
+      "original_artist": null
+    },
+    {
+      "rank": 606,
+      "title": "Love Is Everywhere (Beware)",
+      "cover_artist": "Ryley Walker",
+      "original_artist": null
+    },
+    {
+      "rank": 607,
+      "title": "Friend Of The Devil",
+      "cover_artist": "Tom Petty",
+      "original_artist": null
+    },
+    {
+      "rank": 608,
+      "title": "Willie & The Hand Jive",
+      "cover_artist": "Ozomatli",
+      "original_artist": null
+    },
+    {
+      "rank": 609,
+      "title": "Right Place Wrong Time",
+      "cover_artist": "Jon Spencer Blues Explosion",
+      "original_artist": null
+    },
+    {
+      "rank": 610,
+      "title": "I Don't Need No Doctor",
+      "cover_artist": "Humble Pie",
+      "original_artist": null
+    },
+    {
+      "rank": 611,
+      "title": "Devil Town",
+      "cover_artist": "Bright Eyes",
+      "original_artist": null
+    },
+    {
+      "rank": 612,
+      "title": "How Lucky",
+      "cover_artist": "Kurt Vile (feat. John Prine)",
+      "original_artist": null
+    },
+    {
+      "rank": 613,
+      "title": "Battle Of Evermore",
+      "cover_artist": "SHEL",
+      "original_artist": null
+    },
+    {
+      "rank": 614,
+      "title": "Amarillo By Morning",
+      "cover_artist": "George Strait",
+      "original_artist": null
+    },
+    {
+      "rank": 615,
+      "title": "Bring The Noise",
+      "cover_artist": "The Unholy Trio",
+      "original_artist": null
+    },
+    {
+      "rank": 616,
+      "title": "Making Plans For Nigel",
+      "cover_artist": "Primus",
+      "original_artist": null
+    },
+    {
+      "rank": 617,
+      "title": "Southern Nights",
+      "cover_artist": "Glen Campbell",
+      "original_artist": null
+    },
+    {
+      "rank": 618,
+      "title": "Let Down",
+      "cover_artist": "Pinegrove",
+      "original_artist": null
+    },
+    {
+      "rank": 619,
+      "title": "Darling Nikki",
+      "cover_artist": "Foo Fighters",
+      "original_artist": null
+    },
+    {
+      "rank": 620,
+      "title": "Strawberry Fields Forever",
+      "cover_artist": "Candy Flip",
+      "original_artist": null
+    },
+    {
+      "rank": 621,
+      "title": "World In My Eyes",
+      "cover_artist": "The Cure",
+      "original_artist": null
+    },
+    {
+      "rank": 622,
+      "title": "I Melt With You",
+      "cover_artist": "Nouvelle Vague",
+      "original_artist": null
+    },
+    {
+      "rank": 623,
+      "title": "Doin' Time",
+      "cover_artist": "Lana Del Rey",
+      "original_artist": null
+    },
+    {
+      "rank": 624,
+      "title": "Peace Train",
+      "cover_artist": "10,000 Maniacs",
+      "original_artist": null
+    },
+    {
+      "rank": 625,
+      "title": "Powderfinger",
+      "cover_artist": "Beat Farmers",
+      "original_artist": null
+    },
+    {
+      "rank": 626,
+      "title": "Sexual Healing",
+      "cover_artist": "Ben Harper",
+      "original_artist": null
+    },
+    {
+      "rank": 627,
+      "title": "Going Underground",
+      "cover_artist": "Buffalo Tom",
+      "original_artist": null
+    },
+    {
+      "rank": 628,
+      "title": "Beggin'",
+      "cover_artist": "Maneskin",
+      "original_artist": null
+    },
+    {
+      "rank": 629,
+      "title": "Jet",
+      "cover_artist": "Shonen Knife",
+      "original_artist": null
+    },
+    {
+      "rank": 630,
+      "title": "Come On Eileen",
+      "cover_artist": "Save Ferris",
+      "original_artist": null
+    },
+    {
+      "rank": 631,
+      "title": "Blitzkrieg Bop",
+      "cover_artist": "Yo La Tengo",
+      "original_artist": null
+    },
+    {
+      "rank": 632,
+      "title": "Jackie Blue",
+      "cover_artist": "Smashing Pumpkins",
+      "original_artist": null
+    },
+    {
+      "rank": 633,
+      "title": "You Better Run",
+      "cover_artist": "Pat Benatar",
+      "original_artist": null
+    },
+    {
+      "rank": 634,
+      "title": "The Hunter Gets Captured By The Game",
+      "cover_artist": "Massive Attack (feat. Tracey Thorn)",
+      "original_artist": null
+    },
+    {
+      "rank": 635,
+      "title": "You Sexy Thing",
+      "cover_artist": "Stereophonics",
+      "original_artist": null
+    },
+    {
+      "rank": 636,
+      "title": "Don't Bring Me Down",
+      "cover_artist": "Juliana Hatfield",
+      "original_artist": null
+    },
+    {
+      "rank": 637,
+      "title": "Alison",
+      "cover_artist": "Green Day",
+      "original_artist": null
+    },
+    {
+      "rank": 638,
+      "title": "Enjoy The Silence",
+      "cover_artist": "Nada Surf",
+      "original_artist": null
+    },
+    {
+      "rank": 639,
+      "title": "Everybody Wants To Rule The World",
+      "cover_artist": "Lorde",
+      "original_artist": null
+    },
+    {
+      "rank": 640,
+      "title": "Pass The Dutchie",
+      "cover_artist": "Musical Youth",
+      "original_artist": null
+    },
+    {
+      "rank": 641,
+      "title": "Here Comes The Hotstepper",
+      "cover_artist": "Dr. Dog",
+      "original_artist": null
+    },
+    {
+      "rank": 642,
+      "title": "Seven Nation Army",
+      "cover_artist": "Anderson.Paak",
+      "original_artist": null
+    },
+    {
+      "rank": 643,
+      "title": "Oh Well (live)",
+      "cover_artist": "Jason Isbell & The 400 Unit",
+      "original_artist": null
+    },
+    {
+      "rank": 644,
+      "title": "This Wheel's On Fire",
+      "cover_artist": "Guster",
+      "original_artist": null
+    },
+    {
+      "rank": 645,
+      "title": "Love Will Tear Us Apart",
+      "cover_artist": "Calexico",
+      "original_artist": null
+    },
+    {
+      "rank": 646,
+      "title": "What You Do To Me",
+      "cover_artist": "Benjamin Gibbard",
+      "original_artist": null
+    },
+    {
+      "rank": 647,
+      "title": "There She Goes",
+      "cover_artist": "Sixpence None The Richer",
+      "original_artist": null
+    },
+    {
+      "rank": 648,
+      "title": "Million Miles Away",
+      "cover_artist": "Goo Goo Dolls",
+      "original_artist": null
+    },
+    {
+      "rank": 649,
+      "title": "I'm Not In Love",
+      "cover_artist": "Fun Lovin' Criminals",
+      "original_artist": null
+    },
+    {
+      "rank": 650,
+      "title": "In The Midnight Hour",
+      "cover_artist": "Roxy Music",
+      "original_artist": null
+    },
+    {
+      "rank": 651,
+      "title": "Black Betty",
+      "cover_artist": "Nick Cave & The Bad Seeds",
+      "original_artist": null
+    },
+    {
+      "rank": 652,
+      "title": "Cuz I Love You",
+      "cover_artist": "Joshua Jay Walker",
+      "original_artist": null
+    },
+    {
+      "rank": 653,
+      "title": "Tennessee Whiskey",
+      "cover_artist": "Chris Stapleton",
+      "original_artist": null
+    },
+    {
+      "rank": 654,
+      "title": "Bad Guy",
+      "cover_artist": "The Interrupters",
+      "original_artist": null
+    },
+    {
+      "rank": 655,
+      "title": "I Wanna Be Your Dog",
+      "cover_artist": "Uncle Tupelo",
+      "original_artist": null
+    },
+    {
+      "rank": 656,
+      "title": "Perfect Day",
+      "cover_artist": "Al Green",
+      "original_artist": null
+    },
+    {
+      "rank": 657,
+      "title": "Travelin' Light",
+      "cover_artist": "Widespread Panic",
+      "original_artist": null
+    },
+    {
+      "rank": 658,
+      "title": "Sunday Morning Coming Down",
+      "cover_artist": "Johnny Cash",
+      "original_artist": null
+    },
+    {
+      "rank": 659,
+      "title": "One Way Out",
+      "cover_artist": "Allman Brothers",
+      "original_artist": null
+    },
+    {
+      "rank": 660,
+      "title": "Everything Is Free",
+      "cover_artist": "Father John Misty",
+      "original_artist": null
+    },
+    {
+      "rank": 661,
+      "title": "The Man In The Long Black Coat",
+      "cover_artist": "Mark Lanegan",
+      "original_artist": null
+    },
+    {
+      "rank": 662,
+      "title": "You've Got The Love",
+      "cover_artist": "Florence + The Machine",
+      "original_artist": null
+    },
+    {
+      "rank": 663,
+      "title": "Shoot Out The Lights",
+      "cover_artist": "Bob Mould",
+      "original_artist": null
+    },
+    {
+      "rank": 664,
+      "title": "Train In Vain",
+      "cover_artist": "Annie Lennox",
+      "original_artist": null
+    },
+    {
+      "rank": 665,
+      "title": "Chasing Cars",
+      "cover_artist": "Lucy Dacus",
+      "original_artist": null
+    },
+    {
+      "rank": 666,
+      "title": "Lola",
+      "cover_artist": "The Raincoats",
+      "original_artist": null
+    },
+    {
+      "rank": 667,
+      "title": "Ashes To Ashes",
+      "cover_artist": "Tears For Fears",
+      "original_artist": null
+    },
+    {
+      "rank": 668,
+      "title": "Electrocution",
+      "cover_artist": "Nada Surf",
+      "original_artist": null
+    },
+    {
+      "rank": 669,
+      "title": "Rebel Rebel",
+      "cover_artist": "Seu Jorge",
+      "original_artist": null
+    },
+    {
+      "rank": 670,
+      "title": "Junco Partner",
+      "cover_artist": "Joe Strummer",
+      "original_artist": null
+    },
+    {
+      "rank": 671,
+      "title": "Have You Ever Seen The Rain",
+      "cover_artist": "The Minutemen",
+      "original_artist": null
+    },
+    {
+      "rank": 672,
+      "title": "I Wanna Be Like You",
+      "cover_artist": "Big Bad Voodoo Daddy",
+      "original_artist": null
+    },
+    {
+      "rank": 673,
+      "title": "Grazing In The Grass",
+      "cover_artist": "The Friends Of Distinction",
+      "original_artist": null
+    },
+    {
+      "rank": 674,
+      "title": "Bohemian Rhapsody",
+      "cover_artist": "El Javi",
+      "original_artist": null
+    },
+    {
+      "rank": 675,
+      "title": "After The Gold Rush",
+      "cover_artist": "Thom Yorke",
+      "original_artist": null
+    },
+    {
+      "rank": 676,
+      "title": "Before They Make Me Run",
+      "cover_artist": "Steve Earle",
+      "original_artist": null
+    },
+    {
+      "rank": 677,
+      "title": "Tired Of Being Alone",
+      "cover_artist": "The Subdudes",
+      "original_artist": null
+    },
+    {
+      "rank": 678,
+      "title": "Here Comes The Sun",
+      "cover_artist": "Richie Havens",
+      "original_artist": null
+    },
+    {
+      "rank": 679,
+      "title": "Thin Line Between Love And Hate",
+      "cover_artist": "The Pretenders",
+      "original_artist": null
+    },
+    {
+      "rank": 680,
+      "title": "Skinny Love",
+      "cover_artist": "Japanese Breakfast",
+      "original_artist": null
+    },
+    {
+      "rank": 681,
+      "title": "Funky Town",
+      "cover_artist": "Pseudo Echo",
+      "original_artist": null
+    },
+    {
+      "rank": 682,
+      "title": "Crazy",
+      "cover_artist": "Ray LaMontagne",
+      "original_artist": null
+    },
+    {
+      "rank": 683,
+      "title": "Bad Moon Risin'",
+      "cover_artist": "16 Horsepower",
+      "original_artist": null
+    },
+    {
+      "rank": 684,
+      "title": "What Do I Get",
+      "cover_artist": "Dressy Bessy",
+      "original_artist": null
+    },
+    {
+      "rank": 685,
+      "title": "Steady As She Goes",
+      "cover_artist": "Fitz & The Tantrums",
+      "original_artist": null
+    },
+    {
+      "rank": 686,
+      "title": "We're Coming Back",
+      "cover_artist": "Titus Andronicus",
+      "original_artist": null
+    },
+    {
+      "rank": 687,
+      "title": "Backstabbers",
+      "cover_artist": "Elvis Costello",
+      "original_artist": null
+    },
+    {
+      "rank": 688,
+      "title": "The Chain",
+      "cover_artist": "Brandi Carlile",
+      "original_artist": null
+    },
+    {
+      "rank": 689,
+      "title": "Billy 1",
+      "cover_artist": "Los Lobos",
+      "original_artist": null
+    },
+    {
+      "rank": 690,
+      "title": "Watermelon Man",
+      "cover_artist": "Mongo Santamaria",
+      "original_artist": null
+    },
+    {
+      "rank": 691,
+      "title": "Dream A Little Dream Of Me",
+      "cover_artist": "Cass Elliott",
+      "original_artist": null
+    },
+    {
+      "rank": 692,
+      "title": "Doesn't Make It Alright",
+      "cover_artist": "Stiff Little Fingers",
+      "original_artist": null
+    },
+    {
+      "rank": 693,
+      "title": "The Ghost In You",
+      "cover_artist": "Robyn Hitchcock",
+      "original_artist": null
+    },
+    {
+      "rank": 694,
+      "title": "China Girl",
+      "cover_artist": "David Bowie",
+      "original_artist": null
+    },
+    {
+      "rank": 695,
+      "title": "S.O.S.",
+      "cover_artist": "Erasure",
+      "original_artist": null
+    },
+    {
+      "rank": 696,
+      "title": "I Only Want To Be With You",
+      "cover_artist": "The Tourists",
+      "original_artist": null
+    },
+    {
+      "rank": 697,
+      "title": "Walk On By",
+      "cover_artist": "The Stranglers",
+      "original_artist": null
+    },
+    {
+      "rank": 698,
+      "title": "Somethin' Stupid",
+      "cover_artist": "Devotchka",
+      "original_artist": null
+    },
+    {
+      "rank": 699,
+      "title": "Rocket Man",
+      "cover_artist": "My Morning Jacket",
+      "original_artist": null
+    },
+    {
+      "rank": 700,
+      "title": "Day-O (The Banana Boat Song)",
+      "cover_artist": "Harry Belafonte",
+      "original_artist": null
+    },
+    {
+      "rank": 701,
+      "title": "Lonesome Town",
+      "cover_artist": "The Cramps",
+      "original_artist": null
+    },
+    {
+      "rank": 702,
+      "title": "Kid A",
+      "cover_artist": "Punch Brothers",
+      "original_artist": null
+    },
+    {
+      "rank": 703,
+      "title": "Cello Song",
+      "cover_artist": "The Books (feat. Jose Gonzalez)",
+      "original_artist": null
+    },
+    {
+      "rank": 704,
+      "title": "A Case Of You",
+      "cover_artist": "Prince",
+      "original_artist": null
+    },
+    {
+      "rank": 705,
+      "title": "Head Over Heels",
+      "cover_artist": "Japanese Breakfast",
+      "original_artist": null
+    },
+    {
+      "rank": 706,
+      "title": "Bittersweet",
+      "cover_artist": "Flamin' Groovies",
+      "original_artist": null
+    },
+    {
+      "rank": 707,
+      "title": "Girl From The North Country",
+      "cover_artist": "Eels",
+      "original_artist": null
+    },
+    {
+      "rank": 708,
+      "title": "Purple Haze",
+      "cover_artist": "The Cure",
+      "original_artist": null
+    },
+    {
+      "rank": 709,
+      "title": "She Don't Use Jelly",
+      "cover_artist": "Ben Folds",
+      "original_artist": null
+    },
+    {
+      "rank": 710,
+      "title": "Orange Crush",
+      "cover_artist": "Editors",
+      "original_artist": null
+    },
+    {
+      "rank": 711,
+      "title": "Iron Man",
+      "cover_artist": "The Cardigans",
+      "original_artist": null
+    },
+    {
+      "rank": 712,
+      "title": "All Tomorrow's Parties",
+      "cover_artist": "Japan",
+      "original_artist": null
+    },
+    {
+      "rank": 713,
+      "title": "That Don't Impress Me Much",
+      "cover_artist": "Haim",
+      "original_artist": null
+    },
+    {
+      "rank": 714,
+      "title": "Fruits Of My Labor",
+      "cover_artist": "Waxahatchee",
+      "original_artist": null
+    },
+    {
+      "rank": 715,
+      "title": "Big Joe & Phantom 309",
+      "cover_artist": "Tom Waits",
+      "original_artist": null
+    },
+    {
+      "rank": 716,
+      "title": "Some Kind Of Wonderful",
+      "cover_artist": "Grand Funk Railroad",
+      "original_artist": null
+    },
+    {
+      "rank": 717,
+      "title": "Breakdown",
+      "cover_artist": "Spoon",
+      "original_artist": null
+    },
+    {
+      "rank": 718,
+      "title": "Against All Odds (Take A Look At Me Now)",
+      "cover_artist": "The Postal Service",
+      "original_artist": null
+    },
+    {
+      "rank": 719,
+      "title": "Super Trouper",
+      "cover_artist": "The Japanese House",
+      "original_artist": null
+    },
+    {
+      "rank": 720,
+      "title": "Monkey Man",
+      "cover_artist": "The Specials",
+      "original_artist": null
+    },
+    {
+      "rank": 721,
+      "title": "Rock El Casbah",
+      "cover_artist": "Rachid Taha",
+      "original_artist": null
+    },
+    {
+      "rank": 722,
+      "title": "Black Star",
+      "cover_artist": "Gillian Welch",
+      "original_artist": null
+    },
+    {
+      "rank": 723,
+      "title": "Walking On The Moon",
+      "cover_artist": "Infamous Stringdusters",
+      "original_artist": null
+    },
+    {
+      "rank": 724,
+      "title": "Gotta Serve Somebody",
+      "cover_artist": "Mavis Staples",
+      "original_artist": null
+    },
+    {
+      "rank": 725,
+      "title": "Goin' Out West",
+      "cover_artist": "Gomez",
+      "original_artist": null
+    },
+    {
+      "rank": 726,
+      "title": "High And Dry",
+      "cover_artist": "Jamie Cullum",
+      "original_artist": null
+    },
+    {
+      "rank": 727,
+      "title": "This Is The Day",
+      "cover_artist": "Manic Street Preachers",
+      "original_artist": null
+    },
+    {
+      "rank": 728,
+      "title": "The Air That I Breathe",
+      "cover_artist": "The Hollies",
+      "original_artist": null
+    },
+    {
+      "rank": 729,
+      "title": "Daddy's Little Pumpkin",
+      "cover_artist": "Drive-By Truckers",
+      "original_artist": null
+    },
+    {
+      "rank": 730,
+      "title": "I Hear You Knocking",
+      "cover_artist": "Dave Edmunds",
+      "original_artist": null
+    },
+    {
+      "rank": 731,
+      "title": "I'll Take You There",
+      "cover_artist": "General Public",
+      "original_artist": null
+    },
+    {
+      "rank": 732,
+      "title": "Come Dancing",
+      "cover_artist": "Less Than Jake",
+      "original_artist": null
+    },
+    {
+      "rank": 733,
+      "title": "Gone Daddy Gone",
+      "cover_artist": "Gnarls Barkley",
+      "original_artist": null
+    },
+    {
+      "rank": 734,
+      "title": "Ziggy Stardust",
+      "cover_artist": "Bauhaus",
+      "original_artist": null
+    },
+    {
+      "rank": 735,
+      "title": "Tobacco Road",
+      "cover_artist": "Southern Culture On The Skids",
+      "original_artist": null
+    },
+    {
+      "rank": 736,
+      "title": "Gone Gone Gone",
+      "cover_artist": "Robert Plant & Allison Krauss",
+      "original_artist": null
+    },
+    {
+      "rank": 737,
+      "title": "I Just Don't Know What To Do With Myself",
+      "cover_artist": "White Stripes",
+      "original_artist": null
+    },
+    {
+      "rank": 738,
+      "title": "Everlasting Love",
+      "cover_artist": "U2",
+      "original_artist": null
+    },
+    {
+      "rank": 739,
+      "title": "Our Lips Are Sealed",
+      "cover_artist": "Fun Boy Three",
+      "original_artist": null
+    },
+    {
+      "rank": 740,
+      "title": "Digging In The Dirt",
+      "cover_artist": "Sheryl Crow (feat. Peter Gabriel)",
+      "original_artist": null
+    },
+    {
+      "rank": 741,
+      "title": "Pink Moon",
+      "cover_artist": "Valerie June",
+      "original_artist": null
+    },
+    {
+      "rank": 742,
+      "title": "Jealous Guy (live)",
+      "cover_artist": "Donny Hathaway",
+      "original_artist": null
+    },
+    {
+      "rank": 743,
+      "title": "Wish You Were Here",
+      "cover_artist": "Sparklehorse (feat. Thom Yorke)",
+      "original_artist": null
+    },
+    {
+      "rank": 744,
+      "title": "Heroes",
+      "cover_artist": "The Wallflowers",
+      "original_artist": null
+    },
+    {
+      "rank": 745,
+      "title": "Fallin' Rain",
+      "cover_artist": "Father John Misty",
+      "original_artist": null
+    },
+    {
+      "rank": 746,
+      "title": "Cosmic Dancer",
+      "cover_artist": "Valerie June",
+      "original_artist": null
+    },
+    {
+      "rank": 747,
+      "title": "I'll Be Your Mirror",
+      "cover_artist": "Clem Snide",
+      "original_artist": null
+    },
+    {
+      "rank": 748,
+      "title": "Will The Night",
+      "cover_artist": "Sylvan Esso",
+      "original_artist": null
+    },
+    {
+      "rank": 749,
+      "title": "Under The Milky Way",
+      "cover_artist": "Grant Lee Phillips",
+      "original_artist": null
+    },
+    {
+      "rank": 750,
+      "title": "Treat Her Like A Lady",
+      "cover_artist": "U.S. Girls",
+      "original_artist": null
+    },
+    {
+      "rank": 751,
+      "title": "Summer",
+      "cover_artist": "Mountain Goats",
+      "original_artist": null
+    },
+    {
+      "rank": 752,
+      "title": "Days",
+      "cover_artist": "Real Estate",
+      "original_artist": null
+    },
+    {
+      "rank": 753,
+      "title": "Final Solution",
+      "cover_artist": "Peter Murphy",
+      "original_artist": null
+    },
+    {
+      "rank": 754,
+      "title": "Spirit In The Sky",
+      "cover_artist": "Dr. & The Medics",
+      "original_artist": null
+    },
+    {
+      "rank": 755,
+      "title": "Look Here",
+      "cover_artist": "The Clash",
+      "original_artist": null
+    },
+    {
+      "rank": 756,
+      "title": "Sugar Man",
+      "cover_artist": "Black Pumas",
+      "original_artist": null
+    },
+    {
+      "rank": 757,
+      "title": "She Said She Said",
+      "cover_artist": "Black Keys",
+      "original_artist": null
+    },
+    {
+      "rank": 758,
+      "title": "Papa Was A Rollin' Stone",
+      "cover_artist": "The Temptations",
+      "original_artist": null
+    },
+    {
+      "rank": 759,
+      "title": "How Can I Be Sure",
+      "cover_artist": "Shelby Lynne",
+      "original_artist": null
+    },
+    {
+      "rank": 760,
+      "title": "One More Hour",
+      "cover_artist": "Wilco",
+      "original_artist": null
+    },
+    {
+      "rank": 761,
+      "title": "You're Gonna Make Me Lonesome When You Go",
+      "cover_artist": "Madeleine Peyroux",
+      "original_artist": null
+    },
+    {
+      "rank": 762,
+      "title": "Cha Cha Twist",
+      "cover_artist": "Detroit Cobras",
+      "original_artist": null
+    },
+    {
+      "rank": 763,
+      "title": "Blood On The Bluegrass",
+      "cover_artist": "Gasoline Lollipops",
+      "original_artist": null
+    },
+    {
+      "rank": 764,
+      "title": "John The Revelator",
+      "cover_artist": "Depeche Mode",
+      "original_artist": null
+    },
+    {
+      "rank": 765,
+      "title": "Dark Eyes",
+      "cover_artist": "Calexico / Iron & Wine",
+      "original_artist": null
+    },
+    {
+      "rank": 766,
+      "title": "Mystery Train",
+      "cover_artist": "Elvis Presley",
+      "original_artist": null
+    },
+    {
+      "rank": 767,
+      "title": "Spoonful",
+      "cover_artist": "Benjamin Booker",
+      "original_artist": null
+    },
+    {
+      "rank": 768,
+      "title": "Lotta Love",
+      "cover_artist": "Nicolette Larson",
+      "original_artist": null
+    },
+    {
+      "rank": 769,
+      "title": "Goin' To Acapulco",
+      "cover_artist": "Jim James & Calexico",
+      "original_artist": null
+    },
+    {
+      "rank": 770,
+      "title": "Can't Hardly Wait",
+      "cover_artist": "Justin Townes Earle",
+      "original_artist": null
+    },
+    {
+      "rank": 771,
+      "title": "You Showed Me",
+      "cover_artist": "The Lightning Seeds",
+      "original_artist": null
+    },
+    {
+      "rank": 772,
+      "title": "Victoria",
+      "cover_artist": "The Fall",
+      "original_artist": null
+    },
+    {
+      "rank": 773,
+      "title": "A New England",
+      "cover_artist": "Kirsty MacColl",
+      "original_artist": null
+    },
+    {
+      "rank": 774,
+      "title": "Armagideon Time",
+      "cover_artist": "The Clash",
+      "original_artist": null
+    },
+    {
+      "rank": 775,
+      "title": "The Adults Are Talking",
+      "cover_artist": "Beabadoobee",
+      "original_artist": null
+    },
+    {
+      "rank": 776,
+      "title": "God's Gonna Cut You Down",
+      "cover_artist": "John Grant",
+      "original_artist": null
+    },
+    {
+      "rank": 777,
+      "title": "That's All",
+      "cover_artist": "Amanda Shires",
+      "original_artist": null
+    },
+    {
+      "rank": 778,
+      "title": "Soul Makossa",
+      "cover_artist": "West Seattle Soul",
+      "original_artist": null
+    },
+    {
+      "rank": 779,
+      "title": "Leopard-Skin Pillbox Hat",
+      "cover_artist": "Beck",
+      "original_artist": null
+    },
+    {
+      "rank": 780,
+      "title": "Just Dropped In (To See What Condition…)",
+      "cover_artist": "Kenny Rogers & The First Edition",
+      "original_artist": null
+    },
+    {
+      "rank": 781,
+      "title": "Got My Mind Set On You",
+      "cover_artist": "George Harrison",
+      "original_artist": null
+    },
+    {
+      "rank": 782,
+      "title": "Can't Get Used To Losing You",
+      "cover_artist": "English Beat",
+      "original_artist": null
+    },
+    {
+      "rank": 783,
+      "title": "Love Will Tear Us Apart",
+      "cover_artist": "Amythist Kiah",
+      "original_artist": null
+    },
+    {
+      "rank": 784,
+      "title": "Let My Love Open The Door",
+      "cover_artist": "M. Ward",
+      "original_artist": null
+    },
+    {
+      "rank": 785,
+      "title": "Money Changes Everything",
+      "cover_artist": "Cyndi Lauper",
+      "original_artist": null
+    },
+    {
+      "rank": 786,
+      "title": "Don't Go",
+      "cover_artist": "Smoove & Turrell",
+      "original_artist": null
+    },
+    {
+      "rank": 787,
+      "title": "No More Mr. Nice Guy",
+      "cover_artist": "Electric 6",
+      "original_artist": null
+    },
+    {
+      "rank": 788,
+      "title": "Wendy",
+      "cover_artist": "The Descendents",
+      "original_artist": null
+    },
+    {
+      "rank": 789,
+      "title": "Feel A Whole Lot Better",
+      "cover_artist": "Tom Petty",
+      "original_artist": null
+    },
+    {
+      "rank": 790,
+      "title": "Hayloft",
+      "cover_artist": "Nickel Creek",
+      "original_artist": null
+    },
+    {
+      "rank": 791,
+      "title": "Green Door",
+      "cover_artist": "The Cramps",
+      "original_artist": null
+    },
+    {
+      "rank": 792,
+      "title": "Bad Time",
+      "cover_artist": "The Jayhawks",
+      "original_artist": null
+    },
+    {
+      "rank": 793,
+      "title": "Brother Louie",
+      "cover_artist": "The Stories",
+      "original_artist": null
+    },
+    {
+      "rank": 794,
+      "title": "I Feel You",
+      "cover_artist": "Johnny Marr",
+      "original_artist": null
+    },
+    {
+      "rank": 795,
+      "title": "I'm On Fire",
+      "cover_artist": "Low",
+      "original_artist": null
+    },
+    {
+      "rank": 796,
+      "title": "Jesus Doesn't Want Me For A Sunbeam",
+      "cover_artist": "Nirvana",
+      "original_artist": null
+    },
+    {
+      "rank": 797,
+      "title": "In The Cold, Cold Night",
+      "cover_artist": "Tracey Thorn",
+      "original_artist": null
+    },
+    {
+      "rank": 798,
+      "title": "Cecilia Ann",
+      "cover_artist": "Pixies",
+      "original_artist": null
+    },
+    {
+      "rank": 799,
+      "title": "Can't Get Enough Of You, Baby",
+      "cover_artist": "The Colourfield",
+      "original_artist": null
+    },
+    {
+      "rank": 800,
+      "title": "Baby Ride Easy",
+      "cover_artist": "Father John Misty",
+      "original_artist": null
+    },
+    {
+      "rank": 801,
+      "title": "A Taste Of Honey",
+      "cover_artist": "The Shins",
+      "original_artist": null
+    },
+    {
+      "rank": 802,
+      "title": "Right Down The Line",
+      "cover_artist": "Lucius",
+      "original_artist": null
+    },
+    {
+      "rank": 803,
+      "title": "Mystifies Me",
+      "cover_artist": "Son Volt",
+      "original_artist": null
+    },
+    {
+      "rank": 804,
+      "title": "(I Never Promised You A) Rose Garden",
+      "cover_artist": "Suicide Machines",
+      "original_artist": null
+    },
+    {
+      "rank": 805,
+      "title": "Sermon",
+      "cover_artist": "Mercury Rev (feat. Margo Price)",
+      "original_artist": null
+    },
+    {
+      "rank": 806,
+      "title": "Cuyahoga",
+      "cover_artist": "The Decemberists",
+      "original_artist": null
+    },
+    {
+      "rank": 807,
+      "title": "How Soon Is Now",
+      "cover_artist": "Love Spit Love",
+      "original_artist": null
+    },
+    {
+      "rank": 808,
+      "title": "Girls Talk",
+      "cover_artist": "Elvis Costello",
+      "original_artist": null
+    },
+    {
+      "rank": 809,
+      "title": "Traveling After Dark",
+      "cover_artist": "Aaron Lee Tasjan",
+      "original_artist": null
+    },
+    {
+      "rank": 810,
+      "title": "I Got Loaded",
+      "cover_artist": "Wood Brothers",
+      "original_artist": null
+    },
+    {
+      "rank": 811,
+      "title": "Love Is Blindness",
+      "cover_artist": "Jack White",
+      "original_artist": null
+    },
+    {
+      "rank": 812,
+      "title": "Same Drugs",
+      "cover_artist": "King Cardinal",
+      "original_artist": null
+    },
+    {
+      "rank": 813,
+      "title": "Slippery People",
+      "cover_artist": "The Staples Singers",
+      "original_artist": null
+    },
+    {
+      "rank": 814,
+      "title": "Paranoid",
+      "cover_artist": "Chicano Batman",
+      "original_artist": null
+    },
+    {
+      "rank": 815,
+      "title": "Oye Como Va",
+      "cover_artist": "Santana",
+      "original_artist": null
+    },
+    {
+      "rank": 816,
+      "title": "Driver 8",
+      "cover_artist": "Jason Isbell",
+      "original_artist": null
+    },
+    {
+      "rank": 817,
+      "title": "Unknown Legend",
+      "cover_artist": "Shovels & Rope (feat. Shakey Graves)",
+      "original_artist": null
+    },
+    {
+      "rank": 818,
+      "title": "Time Of The Season (Live at Red Rocks)",
+      "cover_artist": "Dave Matthews Band",
+      "original_artist": null
+    },
+    {
+      "rank": 819,
+      "title": "For You (I'd Do Anything)",
+      "cover_artist": "Jeff Tweedy",
+      "original_artist": null
+    },
+    {
+      "rank": 820,
+      "title": "Signs",
+      "cover_artist": "Tesla",
+      "original_artist": null
+    },
+    {
+      "rank": 821,
+      "title": "This Love Starved Heart Of Mine (Is Killing Me)",
+      "cover_artist": "Jaded Hearts Club",
+      "original_artist": null
+    },
+    {
+      "rank": 822,
+      "title": "Jumpin' Jive",
+      "cover_artist": "Joe Jackson",
+      "original_artist": null
+    },
+    {
+      "rank": 823,
+      "title": "If You Leave",
+      "cover_artist": "Nada Surf",
+      "original_artist": null
+    },
+    {
+      "rank": 824,
+      "title": "Time After Time",
+      "cover_artist": "Iron & Wine",
+      "original_artist": null
+    },
+    {
+      "rank": 825,
+      "title": "I Saw The Light",
+      "cover_artist": "The The",
+      "original_artist": null
+    },
+    {
+      "rank": 826,
+      "title": "Born Under Punches",
+      "cover_artist": "Anjelique Kidjo",
+      "original_artist": null
+    },
+    {
+      "rank": 827,
+      "title": "Just A Girl",
+      "cover_artist": "Florence + The Machine",
+      "original_artist": null
+    },
+    {
+      "rank": 828,
+      "title": "Helter Skelter",
+      "cover_artist": "U2",
+      "original_artist": null
+    },
+    {
+      "rank": 829,
+      "title": "Obsession",
+      "cover_artist": "Animotion",
+      "original_artist": null
+    },
+    {
+      "rank": 830,
+      "title": "Dancing On My Own",
+      "cover_artist": "The Regrettes",
+      "original_artist": null
+    },
+    {
+      "rank": 831,
+      "title": "Burning Down The House",
+      "cover_artist": "Paramore",
+      "original_artist": null
+    },
+    {
+      "rank": 832,
+      "title": "Friday On My Mind",
+      "cover_artist": "David Bowie",
+      "original_artist": null
+    },
+    {
+      "rank": 833,
+      "title": "Twist And Crawl",
+      "cover_artist": "Reel Big Fish",
+      "original_artist": null
+    },
+    {
+      "rank": 834,
+      "title": "Everyday People",
+      "cover_artist": "Jim James",
+      "original_artist": null
+    },
+    {
+      "rank": 835,
+      "title": "Toxic",
+      "cover_artist": "Big Richard",
+      "original_artist": null
+    },
+    {
+      "rank": 836,
+      "title": "The Sky Is Crying",
+      "cover_artist": "Stevie Ray Vaughan",
+      "original_artist": null
+    },
+    {
+      "rank": 837,
+      "title": "Whole Wide World",
+      "cover_artist": "Cage The Elephant",
+      "original_artist": null
+    },
+    {
+      "rank": 838,
+      "title": "Cello Song",
+      "cover_artist": "Fontaines DC",
+      "original_artist": null
+    },
+    {
+      "rank": 839,
+      "title": "Don't You Evah",
+      "cover_artist": "Spoon",
+      "original_artist": null
+    },
+    {
+      "rank": 840,
+      "title": "Getting Better",
+      "cover_artist": "Gomez",
+      "original_artist": null
+    },
+    {
+      "rank": 841,
+      "title": "Wide Open Spaces",
+      "cover_artist": "Soccer Mommy",
+      "original_artist": null
+    },
+    {
+      "rank": 842,
+      "title": "No Surprises",
+      "cover_artist": "Jeremiah Fraites & Gregory Alan Isakov",
+      "original_artist": null
+    },
+    {
+      "rank": 843,
+      "title": "Pa Pa Power",
+      "cover_artist": "Cat Power",
+      "original_artist": null
+    },
+    {
+      "rank": 844,
+      "title": "Goodbye Yellow Brick Road",
+      "cover_artist": "Queens Of The Stoneage",
+      "original_artist": null
+    },
+    {
+      "rank": 845,
+      "title": "Wedding Bell Blues",
+      "cover_artist": "Morrissey",
+      "original_artist": null
+    },
+    {
+      "rank": 846,
+      "title": "I Started A Joke",
+      "cover_artist": "Faith No More",
+      "original_artist": null
+    },
+    {
+      "rank": 847,
+      "title": "Pony",
+      "cover_artist": "Slothrust",
+      "original_artist": null
+    },
+    {
+      "rank": 848,
+      "title": "Hooked On A Feeling",
+      "cover_artist": "Blue Swede",
+      "original_artist": null
+    },
+    {
+      "rank": 849,
+      "title": "Why Can't We Be Friends?",
+      "cover_artist": "Smash Mouth",
+      "original_artist": null
+    },
+    {
+      "rank": 850,
+      "title": "Video Killed The Radio Star",
+      "cover_artist": "Presidents Of The United States Of America",
+      "original_artist": null
+    }
+  ]
+}

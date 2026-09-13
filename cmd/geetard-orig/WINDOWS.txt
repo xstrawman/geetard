@@ -1,0 +1,42 @@
+Download: https://github.com/xstrawman/geetard/releases
+
+GEETARD original-artist resolver (Windows)
+
+Wikipedia blocked the Linux box because it was on Proton VPN (HTTP 429).
+Run THIS on a normal home connection. Do not use a VPN.
+
+This program does NOT download tabs. It only fills original_artist
+in the 850-song JSON. Copy the result back to Linux for geetard-pack.
+
+ONE MACHINE (all 850, ~20–40 minutes at 1.2s per Wikipedia hit):
+
+  1. Unzip this folder somewhere, e.g. Desktop\geetard-orig
+  2. Double-click run.bat
+     or in cmd:
+
+       geetard-orig-windows-amd64.exe -seed cover-songs-seed.json -override originals-override.json -out originals.json
+
+  3. Leave it. Ctrl+C is safe. Run the same command again to resume.
+  4. Copy originals.json back to the Linux tree and pack:
+
+       geetard-pack -seed originals.json -out corpus
+
+TWO MACHINES (split the list):
+
+  PC A:
+    geetard-orig-windows-amd64.exe -from 1 -to 425 -out shard-a.json -seed cover-songs-seed.json -override originals-override.json
+
+  PC B:
+    geetard-orig-windows-amd64.exe -from 426 -to 850 -out shard-b.json -seed cover-songs-seed.json -override originals-override.json
+
+  Then merge (on either PC):
+
+    geetard-orig-windows-amd64.exe -merge -out originals.json shard-a.json shard-b.json
+
+ARM Windows (Snapdragon / some Surfaces): use geetard-orig-windows-arm64.exe
+and edit run.bat to match.
+
+If Wikipedia 429s here too: wait a few minutes, rerun (it resumes),
+or raise delay:
+
+  geetard-orig-windows-amd64.exe -delay-ms 2500 -out originals.json ...

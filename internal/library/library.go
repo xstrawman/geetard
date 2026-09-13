@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 	"time"
@@ -12,18 +13,22 @@ import (
 )
 
 type Record struct {
-	Path       string              `json:"path"`
-	Artist     string              `json:"artist"`
-	Song       string              `json:"song"`
-	Version    int                 `json:"version"`
-	Type       string              `json:"type"`
-	Rating     float64             `json:"rating"`
-	Capo       string              `json:"capo"`
-	Tuning     string              `json:"tuning"`
-	Difficulty string              `json:"difficulty"`
-	Raw        string              `json:"raw"`
-	Shapes     []client.ChordShape `json:"shapes"`
-	FetchedAt  time.Time           `json:"fetched_at"`
+	Path           string              `json:"path"`
+	Artist         string              `json:"artist"`
+	Song           string              `json:"song"`
+	Version        int                 `json:"version"`
+	Type           string              `json:"type"`
+	Rating         float64             `json:"rating"`
+	Capo           string              `json:"capo"`
+	Tuning         string              `json:"tuning"`
+	Difficulty     string              `json:"difficulty"`
+	Raw            string              `json:"raw"`
+	Shapes         []client.ChordShape `json:"shapes"`
+	FetchedAt      time.Time           `json:"fetched_at"`
+	OriginalArtist string              `json:"original_artist,omitempty"`
+	CoverArtist    string              `json:"cover_artist,omitempty"`
+	SheetArtist    string              `json:"sheet_artist,omitempty"`
+	SourceRank     int                 `json:"source_rank,omitempty"`
 }
 
 func FromTab(t client.TabDetail) Record {
@@ -74,6 +79,44 @@ func Save(dir string, r Record) error {
 	if name == "" {
 		return client.ClientError{Msg: "missing tab path"}
 	}
+	return writeTab(dir, name, r)
+}
+
+var (
+	verParenFile  = regexp.MustCompile(`(?i)\s*\(ver(?:sion)?\s*\d+\)`)
+	liveParenFile = regexp.MustCompile(`(?i)\s*\([^)]*live[^)]*\)`)
+	thePrefixFile = regexp.MustCompile(`(?i)^the\s+`)
+)
+
+func CanonicalFile(artist, song string) string {
+	return canonicalFile(artist, song)
+}
+
+func canonicalFile(artist, song string) string {
+	a := strings.ToLower(strings.TrimSpace(artist))
+	a = thePrefixFile.ReplaceAllString(a, "")
+	s := strings.ToLower(strings.TrimSpace(song))
+	s = verParenFile.ReplaceAllString(s, "")
+	s = liveParenFile.ReplaceAllString(s, "")
+	a = strings.TrimSpace(a)
+	s = strings.TrimSpace(s)
+	if a == "" || s == "" {
+		return ""
+	}
+	a = strings.ReplaceAll(a, "/", "-")
+	s = strings.ReplaceAll(s, "/", "-")
+	return a + "__" + s + ".json"
+}
+
+func SaveCanonical(dir string, r Record) error {
+	name := canonicalFile(r.Artist, r.Song)
+	if name == "" {
+		return client.ClientError{Msg: "missing artist or title"}
+	}
+	return writeTab(dir, name, r)
+}
+
+func writeTab(dir, name string, r Record) error {
 	tabs := filepath.Join(dir, "tabs")
 	if err := os.MkdirAll(tabs, 0o755); err != nil {
 		return err
