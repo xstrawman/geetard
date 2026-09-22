@@ -46,6 +46,15 @@ or run `~/.local/bin/geetard`.
 Intel/AMD Chromebooks use the amd64 binary; ARM Chromebooks use arm64.
 `install.sh` picks the right one.
 
+## Windows
+
+Download [geetard-windows-amd64.zip](https://github.com/xstrawman/geetard/releases/latest)
+(ARM: `geetard-windows-arm64.zip`), unzip, and run `geetard.exe` from
+Windows Terminal or Command Prompt.
+
+Settings are saved in `%USERPROFILE%\.config\geetard`. Opened tabs are saved in
+`%USERPROFILE%\.local\share\geetard\tabs`.
+
 Override catalog hosts if you self-host freetar:
 
 ```bash

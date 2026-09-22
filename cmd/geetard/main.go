@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"runtime"
 
 	tea "charm.land/bubbletea/v2"
 	"geetard/internal/client"
@@ -11,16 +12,29 @@ import (
 	"geetard/internal/tui"
 )
 
+// haveRealTerminal rejects crosh and other environments with no controlling
+// terminal. Windows console programs have no /dev/tty; Bubble Tea attaches
+// to the console itself.
+func haveRealTerminal() bool {
+	if runtime.GOOS == "windows" {
+		return true
+	}
+	tty, err := os.OpenFile("/dev/tty", os.O_RDWR, 0)
+	if err != nil {
+		return false
+	}
+	_ = tty.Close()
+	return true
+}
+
 func main() {
 	if term := os.Getenv("TERM"); term == "" || term == "dumb" {
 		_ = os.Setenv("TERM", "xterm-256color")
 	}
-	if tty, err := os.OpenFile("/dev/tty", os.O_RDWR, 0); err != nil {
+	if !haveRealTerminal() {
 		fmt.Fprintln(os.Stderr, "geetard needs a real terminal.")
 		fmt.Fprintln(os.Stderr, "On ChromeOS: Settings → Advanced → Developers → Linux, then open the Linux Terminal app and run geetard.")
 		os.Exit(1)
-	} else {
-		_ = tty.Close()
 	}
 
 	dir := config.Dir()
